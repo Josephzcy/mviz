@@ -1,0 +1,1975 @@
+{
+  "_hil_signal_at": "2024-03-22 16:23:32",
+  "_hil_signal_us": 1711095812740853,
+  "_inspect_dmap": {
+    "ap_map_response": {
+      "enable_libflow": true,
+      "libflow_host": "0.0.0.0",
+      "libflow_name": "ap_map_response",
+      "libflow_port": "24012",
+      "offset_time_us": 0,
+      "transmit_signal": true
+    },
+    "apa_gnss": {
+      "cve_ct": 1664151840751,
+      "cve_tick_final": 5163321000,
+      "cve_tick_first": 5109321000,
+      "cve_us_final": 1669261215750,
+      "cve_us_first": 1669261161751,
+      "details": {
+        "_abs_index_fp": "/home/wingboy/MyData/replay/apa_vm_byd/20240316160755/apa_gnss.index.json",
+        "_abs_proto_fp": "/home/wingboy/MyData/replay/apa_vm_byd/20240316160755/apa_gnss.bin",
+        "_index_fields": {
+          "frame_idx": 3,
+          "offset": 1,
+          "size": 2,
+          "tick": 4,
+          "timestamp": 0
+        },
+        "_index_final": [
+          "1669261215750",
+          7074,
+          131,
+          54,
+          "5163321000"
+        ],
+        "_index_first": [
+          "1669261161751",
+          0,
+          131,
+          0,
+          "5109321000"
+        ],
+        "_index_size": 55,
+        "_sorted_idx": 4
+      },
+      "enable_libflow": true,
+      "fix_tick_bias": 0,
+      "fix_timestamp_bias": 0,
+      "libflow_host": "0.0.0.0",
+      "libflow_name": "apa_gnss",
+      "libflow_port": "24012",
+      "offset_time_us": 0,
+      "transmit_signal": true
+    },
+    "apa_hmi_signal": {
+      "enable_libflow": true,
+      "libflow_host": "0.0.0.0",
+      "libflow_name": "apa_hmi_signal",
+      "libflow_port": "24012",
+      "offset_time_us": 0,
+      "transmit_signal": true
+    },
+    "apa_hmi_signal_res": {
+      "cve_ct": 0,
+      "cve_tick_final": 0,
+      "cve_tick_first": 0,
+      "cve_us_final": 0,
+      "cve_us_first": 0,
+      "details": {
+        "_abs_index_fp": "/home/wingboy/MyData/replay/apa_vm_byd/20240316160755/apa_hmi_signal_res.index.json",
+        "_abs_proto_fp": "/home/wingboy/MyData/replay/apa_vm_byd/20240316160755/apa_hmi_signal_res.bin",
+        "_index_fields": {
+          "frame_idx": 3,
+          "offset": 1,
+          "size": 2,
+          "tick": 4,
+          "timestamp": 0
+        },
+        "_index_final": [
+          "0",
+          165,
+          15,
+          11,
+          "0"
+        ],
+        "_index_first": [
+          "0",
+          0,
+          15,
+          0,
+          "0"
+        ],
+        "_index_size": 12,
+        "_sorted_idx": 4
+      },
+      "enable_libflow": true,
+      "fix_tick_bias": 0,
+      "fix_timestamp_bias": 0,
+      "libflow_host": "0.0.0.0",
+      "libflow_name": "apa_hmi_signal_res",
+      "libflow_port": "24012",
+      "offset_time_us": 0,
+      "transmit_signal": true
+    },
+    "apa_state_control": {
+      "cve_ct": 1669256052430000,
+      "cve_tick_final": 5163560000,
+      "cve_tick_first": 5115840000,
+      "cve_us_final": 1669261215990000,
+      "cve_us_first": 1669261168270000,
+      "details": {
+        "_abs_index_fp": "/home/wingboy/MyData/replay/apa_vm_byd/20240316160755/apa_state_control.index.json",
+        "_abs_proto_fp": "/home/wingboy/MyData/replay/apa_vm_byd/20240316160755/apa_state_control.bin",
+        "_index_fields": {
+          "frame_idx": 3,
+          "offset": 1,
+          "size": 2,
+          "tick": 4,
+          "timestamp": 0
+        },
+        "_index_final": [
+          "1669261215990000",
+          313101,
+          144,
+          2290,
+          "5163560000"
+        ],
+        "_index_first": [
+          "1669261168270000",
+          0,
+          144,
+          0,
+          "5115840000"
+        ],
+        "_index_size": 2291,
+        "_sorted_idx": 4
+      },
+      "enable_libflow": true,
+      "fix_tick_bias": 0,
+      "fix_timestamp_bias": 0,
+      "libflow_host": "0.0.0.0",
+      "libflow_name": "apa_state_control",
+      "libflow_port": "24012",
+      "offset_time_us": 0,
+      "transmit_signal": true
+    },
+    "apa_vehicle_signal": {
+      "cve_ct": 1664145348250,
+      "cve_tick_final": 5163572000,
+      "cve_tick_first": 5115820000,
+      "cve_us_final": 1669261216001,
+      "cve_us_first": 1669261168250,
+      "details": {
+        "_abs_index_fp": "/home/wingboy/MyData/replay/apa_vm_byd/20240316160755/apa_vehicle_signal.index.json",
+        "_abs_proto_fp": "/home/wingboy/MyData/replay/apa_vm_byd/20240316160755/apa_vehicle_signal.bin",
+        "_index_fields": {
+          "frame_idx": 3,
+          "offset": 1,
+          "size": 2,
+          "tick": 4,
+          "timestamp": 0
+        },
+        "_index_final": [
+          "1669261216001",
+          123195,
+          129,
+          955,
+          "5163572000"
+        ],
+        "_index_first": [
+          "1669261168250",
+          0,
+          129,
+          0,
+          "5115820000"
+        ],
+        "_index_size": 956,
+        "_sorted_idx": 4
+      },
+      "enable_libflow": true,
+      "fix_tick_bias": 0,
+      "fix_timestamp_bias": 0,
+      "libflow_host": "0.0.0.0",
+      "libflow_name": "apa_vehicle_signal",
+      "libflow_port": "24012",
+      "offset_time_us": 0,
+      "transmit_signal": true
+    },
+    "avm_settings": {
+      "cve_ct": 1664154263944866,
+      "cve_tick_final": 5159277519000,
+      "cve_tick_first": 5106897335000,
+      "cve_us_final": 1669261213660053,
+      "cve_us_first": 1669261161279866,
+      "details": {
+        "_abs_index_fp": "/home/wingboy/MyData/replay/apa_vm_byd/20240316160755/avm_settings.index.json",
+        "_abs_proto_fp": "/home/wingboy/MyData/replay/apa_vm_byd/20240316160755/avm_settings.bin",
+        "_index_fields": {
+          "frame_idx": 3,
+          "offset": 1,
+          "size": 2,
+          "tick": 4,
+          "timestamp": 0
+        },
+        "_index_final": [
+          "1669261213660053",
+          2807,
+          77,
+          37,
+          "5159277519000"
+        ],
+        "_index_first": [
+          "1669261161279866",
+          0,
+          75,
+          0,
+          "5106897335000"
+        ],
+        "_index_size": 38,
+        "_sorted_idx": 4
+      },
+      "enable_libflow": true,
+      "fix_tick_bias": 0,
+      "fix_timestamp_bias": 0,
+      "libflow_host": "0.0.0.0",
+      "libflow_name": "avm_settings",
+      "libflow_port": "24012",
+      "offset_time_us": 0,
+      "transmit_signal": true
+    },
+    "bev_libflow": {
+      "cve_ct": 1669256052430000,
+      "cve_tick_final": 5160957000,
+      "cve_tick_first": 5108242000,
+      "cve_us_final": 1669261213386000,
+      "cve_us_first": 1669261160672000,
+      "details": {
+        "_abs_index_fp": "/home/wingboy/MyData/replay/apa_vm_byd/20240316160755/bev_libflow.index.json",
+        "_abs_proto_fp": "/home/wingboy/MyData/replay/apa_vm_byd/20240316160755/bev_libflow.bin",
+        "_index_fields": {
+          "camera_id": 6,
+          "frame_id": 3,
+          "frame_idx": 4,
+          "frame_type": 7,
+          "offset": 1,
+          "size": 2,
+          "tick": 8,
+          "timestamp": 0,
+          "video_idx": 5
+        },
+        "_index_final": [
+          "1669261213386000",
+          56623816,
+          93500,
+          103228,
+          556,
+          0,
+          0,
+          3,
+          "5160957000"
+        ],
+        "_index_first": [
+          "1669261160672000",
+          0,
+          107877,
+          102172,
+          0,
+          0,
+          0,
+          3,
+          "5108242000"
+        ],
+        "_index_size": 557,
+        "_sorted_idx": 8
+      },
+      "enable_libflow": true,
+      "fix_tick_bias": 0,
+      "fix_timestamp_bias": 0,
+      "libflow_host": "0.0.0.0",
+      "libflow_name": "bev_libflow",
+      "libflow_port": "28010",
+      "offset_time_us": 0,
+      "transmit_signal": true
+    },
+    "camera30": {
+      "cve_ct": 1669256052430000,
+      "cve_tick_final": 5163503000,
+      "cve_tick_first": 5115779000,
+      "cve_us_final": 1669261215933000,
+      "cve_us_first": 1669261168209000,
+      "details": {
+        "_abs_index_fp": "/home/wingboy/MyData/replay/apa_vm_byd/20240316160755/camera_stitching.index.json",
+        "_abs_proto_fp": "/home/wingboy/MyData/replay/apa_vm_byd/20240316160755/camera_stitching.bin",
+        "_index_fields": {
+          "camera_id": 6,
+          "frame_id": 3,
+          "frame_idx": 4,
+          "frame_type": 7,
+          "offset": 1,
+          "size": 2,
+          "tick": 8,
+          "timestamp": 0,
+          "video_idx": 5
+        },
+        "_index_final": [
+          "1669261215933000",
+          199165090,
+          209370,
+          103279,
+          956,
+          0,
+          0,
+          3,
+          "5163503000"
+        ],
+        "_index_first": [
+          "1669261168209000",
+          0,
+          207203,
+          102323,
+          0,
+          0,
+          0,
+          3,
+          "5115779000"
+        ],
+        "_index_size": 957,
+        "_sorted_idx": 8
+      },
+      "enable_libflow": true,
+      "fix_tick_bias": 0,
+      "fix_timestamp_bias": 0,
+      "libflow_host": "0.0.0.0",
+      "libflow_name": "camera30",
+      "libflow_port": "24011",
+      "offset_time_us": 0,
+      "transmit_signal": true
+    },
+    "cus_parkingspace": {
+      "enable_libflow": true,
+      "libflow_host": "0.0.0.0",
+      "libflow_name": "cus_parkingspace",
+      "libflow_port": "24012",
+      "offset_time_us": 0,
+      "transmit_signal": true
+    },
+    "freespace": {
+      "cve_ct": 1664152918672,
+      "cve_tick_final": 5161007000,
+      "cve_tick_first": 5108242000,
+      "cve_us_final": 1669261213437,
+      "cve_us_first": 1669261160672,
+      "details": {
+        "_abs_index_fp": "/home/wingboy/MyData/replay/apa_vm_byd/20240316160755/freespace.index.json",
+        "_abs_proto_fp": "/home/wingboy/MyData/replay/apa_vm_byd/20240316160755/freespace.bin",
+        "_index_fields": {
+          "frame_idx": 3,
+          "offset": 1,
+          "size": 2,
+          "tick": 4,
+          "timestamp": 0
+        },
+        "_index_final": [
+          "1669261213437",
+          5428494,
+          10136,
+          529,
+          "5161007000"
+        ],
+        "_index_first": [
+          "1669261160672",
+          0,
+          10324,
+          0,
+          "5108242000"
+        ],
+        "_index_size": 530,
+        "_sorted_idx": 4
+      },
+      "enable_libflow": true,
+      "fix_tick_bias": 0,
+      "fix_timestamp_bias": 0,
+      "libflow_host": "0.0.0.0",
+      "libflow_name": "freespace",
+      "libflow_port": "24012",
+      "offset_time_us": 0,
+      "transmit_signal": true
+    },
+    "gridmap": {
+      "cve_ct": 1664153168422,
+      "cve_tick_final": 5160957000,
+      "cve_tick_first": 5107992000,
+      "cve_us_final": 1669261213386,
+      "cve_us_first": 1669261160422,
+      "details": {
+        "_abs_index_fp": "/home/wingboy/MyData/replay/apa_vm_byd/20240316160755/gridmap.index.json",
+        "_abs_proto_fp": "/home/wingboy/MyData/replay/apa_vm_byd/20240316160755/gridmap.bin",
+        "_index_fields": {
+          "frame_idx": 3,
+          "offset": 1,
+          "size": 2,
+          "tick": 4,
+          "timestamp": 0
+        },
+        "_index_final": [
+          "1669261213386",
+          898778,
+          2274,
+          436,
+          "5160957000"
+        ],
+        "_index_first": [
+          "1669261160422",
+          0,
+          2388,
+          0,
+          "5107992000"
+        ],
+        "_index_size": 437,
+        "_sorted_idx": 4
+      },
+      "enable_libflow": true,
+      "fix_tick_bias": 0,
+      "fix_timestamp_bias": 0,
+      "libflow_host": "0.0.0.0",
+      "libflow_name": "gridmap",
+      "libflow_port": "24012",
+      "offset_time_us": 0,
+      "transmit_signal": true
+    },
+    "hmi_to_soc": {
+      "cve_ct": 1669256052430000,
+      "cve_tick_final": 5121744000,
+      "cve_tick_first": 5121744000,
+      "cve_us_final": 1669261174174000,
+      "cve_us_first": 1669261174174000,
+      "details": {
+        "_abs_index_fp": "/home/wingboy/MyData/replay/apa_vm_byd/20240316160755/hmi_to_soc.index.json",
+        "_abs_proto_fp": "/home/wingboy/MyData/replay/apa_vm_byd/20240316160755/hmi_to_soc.bin",
+        "_index_fields": {
+          "frame_idx": 3,
+          "offset": 1,
+          "size": 2,
+          "tick": 4,
+          "timestamp": 0
+        },
+        "_index_final": [
+          "1669261174174000",
+          0,
+          19,
+          0,
+          "5121744000"
+        ],
+        "_index_first": [
+          "1669261174174000",
+          0,
+          19,
+          0,
+          "5121744000"
+        ],
+        "_index_size": 1,
+        "_sorted_idx": 4
+      },
+      "enable_libflow": true,
+      "fix_tick_bias": 0,
+      "fix_timestamp_bias": 0,
+      "libflow_host": "0.0.0.0",
+      "libflow_name": "hmi_to_soc",
+      "libflow_port": "24012",
+      "offset_time_us": 0,
+      "transmit_signal": true
+    },
+    "hmi_to_soc_havp": {
+      "enable_libflow": true,
+      "libflow_host": "0.0.0.0",
+      "libflow_name": "hmi_to_soc_havp",
+      "libflow_port": "24012",
+      "offset_time_us": 0,
+      "transmit_signal": true
+    },
+    "ihu_to_avm": {
+      "cve_ct": 1669256052398803,
+      "cve_tick_final": 5121694321,
+      "cve_tick_first": 5103232197,
+      "cve_us_final": 0,
+      "cve_us_first": 1669261155631000,
+      "details": {
+        "_abs_index_fp": "/home/wingboy/MyData/replay/apa_vm_byd/20240316160755/ihu_to_avm.index.json",
+        "_abs_proto_fp": "/home/wingboy/MyData/replay/apa_vm_byd/20240316160755/ihu_to_avm.bin",
+        "_index_fields": {
+          "frame_idx": 3,
+          "offset": 1,
+          "size": 2,
+          "tick": 4,
+          "timestamp": 0
+        },
+        "_index_final": [
+          "0",
+          157,
+          15,
+          9,
+          "5121694321"
+        ],
+        "_index_first": [
+          "1669261155631000",
+          0,
+          19,
+          0,
+          "5103232197"
+        ],
+        "_index_size": 10,
+        "_sorted_idx": 4
+      },
+      "enable_libflow": true,
+      "fix_tick_bias": 0,
+      "fix_timestamp_bias": 0,
+      "libflow_host": "0.0.0.0",
+      "libflow_name": "ihu_to_avm",
+      "libflow_port": "24012",
+      "offset_time_us": 0,
+      "transmit_signal": true
+    },
+    "ihu_to_soc": {
+      "cve_ct": 1669256052430000,
+      "cve_tick_final": 5123163000,
+      "cve_tick_first": 4994320000,
+      "cve_us_final": 1669261175592000,
+      "cve_us_first": 1669261046750000,
+      "details": {
+        "_abs_index_fp": "/home/wingboy/MyData/replay/apa_vm_byd/20240316160755/ihu_to_soc.index.json",
+        "_abs_proto_fp": "/home/wingboy/MyData/replay/apa_vm_byd/20240316160755/ihu_to_soc.bin",
+        "_index_fields": {
+          "frame_idx": 3,
+          "offset": 1,
+          "size": 2,
+          "tick": 4,
+          "timestamp": 0
+        },
+        "_index_final": [
+          "1669261175592000",
+          142,
+          21,
+          8,
+          "5123163000"
+        ],
+        "_index_first": [
+          "1669261046750000",
+          0,
+          17,
+          0,
+          "4994320000"
+        ],
+        "_index_size": 9,
+        "_sorted_idx": 4
+      },
+      "enable_libflow": true,
+      "fix_tick_bias": 0,
+      "fix_timestamp_bias": 0,
+      "libflow_host": "0.0.0.0",
+      "libflow_name": "ihu_to_soc",
+      "libflow_port": "24012",
+      "offset_time_us": 0,
+      "transmit_signal": true
+    },
+    "imu": {
+      "cve_ct": 1664145447151,
+      "cve_tick_final": 5163590000,
+      "cve_tick_first": 5115721000,
+      "cve_us_final": 1669261216019,
+      "cve_us_first": 1669261168151,
+      "details": {
+        "_abs_index_fp": "/home/wingboy/MyData/replay/apa_vm_byd/20240316160755/imu.index.json",
+        "_abs_proto_fp": "/home/wingboy/MyData/replay/apa_vm_byd/20240316160755/imu.bin",
+        "_index_fields": {
+          "frame_idx": 3,
+          "offset": 1,
+          "size": 2,
+          "tick": 4,
+          "timestamp": 0
+        },
+        "_index_final": [
+          "1669261216019",
+          265679,
+          279,
+          955,
+          "5163590000"
+        ],
+        "_index_first": [
+          "1669261168151",
+          0,
+          288,
+          0,
+          "5115721000"
+        ],
+        "_index_size": 956,
+        "_sorted_idx": 4
+      },
+      "enable_libflow": true,
+      "fix_tick_bias": 0,
+      "fix_timestamp_bias": 0,
+      "libflow_host": "0.0.0.0",
+      "libflow_name": "imu",
+      "libflow_port": "24012",
+      "offset_time_us": 0,
+      "transmit_signal": true
+    },
+    "imu_correct_data": {
+      "enable_libflow": true,
+      "libflow_host": "0.0.0.0",
+      "libflow_name": "imu_correct_data",
+      "libflow_port": "24012",
+      "offset_time_us": 0,
+      "transmit_signal": true
+    },
+    "imu_rtk": {
+      "enable_libflow": true,
+      "libflow_host": "0.0.0.0",
+      "libflow_name": "imu_rtk",
+      "libflow_port": "24012",
+      "offset_time_us": 0,
+      "transmit_signal": true
+    },
+    "map_engine_response": {
+      "enable_libflow": true,
+      "libflow_host": "0.0.0.0",
+      "libflow_name": "map_engine_response",
+      "libflow_port": "24012",
+      "offset_time_us": 0,
+      "transmit_signal": true
+    },
+    "odo_vehicle_signal": {
+      "cve_ct": 1664145158440,
+      "cve_tick_final": 5163680000,
+      "cve_tick_first": 5116010000,
+      "cve_us_final": 1669261216110,
+      "cve_us_first": 1669261168440,
+      "details": {
+        "_abs_index_fp": "/home/wingboy/MyData/replay/apa_vm_byd/20240316160755/odo_vehicle_signal.index.json",
+        "_abs_proto_fp": "/home/wingboy/MyData/replay/apa_vm_byd/20240316160755/odo_vehicle_signal.bin",
+        "_index_fields": {
+          "frame_idx": 3,
+          "offset": 1,
+          "size": 2,
+          "tick": 4,
+          "timestamp": 0
+        },
+        "_index_final": [
+          "1669261216110",
+          475880,
+          160,
+          2968,
+          "5163680000"
+        ],
+        "_index_first": [
+          "1669261168440",
+          0,
+          160,
+          0,
+          "5116010000"
+        ],
+        "_index_size": 2969,
+        "_sorted_idx": 4
+      },
+      "enable_libflow": true,
+      "fix_tick_bias": 0,
+      "fix_timestamp_bias": 0,
+      "libflow_host": "0.0.0.0",
+      "libflow_name": "odo_vehicle_signal",
+      "libflow_port": "24012",
+      "offset_time_us": 0,
+      "transmit_signal": true
+    },
+    "odometry_3d": {
+      "cve_ct": -5115939682,
+      "cve_tick_final": 5163568164,
+      "cve_tick_first": 5115939682,
+      "cve_us_final": 0,
+      "cve_us_first": 0,
+      "details": {
+        "_abs_index_fp": "/home/wingboy/MyData/replay/apa_vm_byd/20240316160755/odometry_3d.index.json",
+        "_abs_proto_fp": "/home/wingboy/MyData/replay/apa_vm_byd/20240316160755/odometry_3d.bin",
+        "_index_fields": {
+          "frame_idx": 3,
+          "offset": 1,
+          "size": 2,
+          "tick": 4,
+          "timestamp": 0
+        },
+        "_index_final": [
+          "0",
+          307278,
+          129,
+          2382,
+          "5163568164"
+        ],
+        "_index_first": [
+          "0",
+          0,
+          129,
+          0,
+          "5115939682"
+        ],
+        "_index_size": 2383,
+        "_sorted_idx": 4
+      },
+      "enable_libflow": true,
+      "fix_tick_bias": 0,
+      "fix_timestamp_bias": 0,
+      "libflow_host": "0.0.0.0",
+      "libflow_name": "odometry_3d",
+      "libflow_port": "24012",
+      "offset_time_us": 0,
+      "transmit_signal": true
+    },
+    "odometry_3d_gt": {
+      "enable_libflow": true,
+      "libflow_host": "0.0.0.0",
+      "libflow_name": "odometry_3d_gt",
+      "libflow_port": "24012",
+      "offset_time_us": 0,
+      "transmit_signal": true
+    },
+    "odometry_3d_lz": {
+      "enable_libflow": true,
+      "libflow_host": "0.0.0.0",
+      "libflow_name": "odometry_3d_lz",
+      "libflow_port": "24012",
+      "offset_time_us": 0,
+      "transmit_signal": true
+    },
+    "parking_gnss": {
+      "enable_libflow": true,
+      "libflow_host": "0.0.0.0",
+      "libflow_name": "parking_gnss",
+      "libflow_port": "24012",
+      "offset_time_us": 0,
+      "transmit_signal": true
+    },
+    "parking_ins": {
+      "enable_libflow": true,
+      "libflow_host": "0.0.0.0",
+      "libflow_name": "parking_ins",
+      "libflow_port": "24012",
+      "offset_time_us": 0,
+      "transmit_signal": true
+    },
+    "parking_object": {
+      "cve_ct": 1664152918672,
+      "cve_tick_final": 5161007000,
+      "cve_tick_first": 5108242000,
+      "cve_us_final": 1669261213437,
+      "cve_us_first": 1669261160672,
+      "details": {
+        "_abs_index_fp": "/home/wingboy/MyData/replay/apa_vm_byd/20240316160755/parking_object.index.json",
+        "_abs_proto_fp": "/home/wingboy/MyData/replay/apa_vm_byd/20240316160755/parking_object.bin",
+        "_index_fields": {
+          "frame_idx": 3,
+          "offset": 1,
+          "size": 2,
+          "tick": 4,
+          "timestamp": 0
+        },
+        "_index_final": [
+          "1669261213437",
+          761771,
+          1109,
+          529,
+          "5161007000"
+        ],
+        "_index_first": [
+          "1669261160672",
+          0,
+          1577,
+          0,
+          "5108242000"
+        ],
+        "_index_size": 530,
+        "_sorted_idx": 4
+      },
+      "enable_libflow": true,
+      "fix_tick_bias": 0,
+      "fix_timestamp_bias": 0,
+      "libflow_host": "0.0.0.0",
+      "libflow_name": "parking_object",
+      "libflow_port": "24012",
+      "offset_time_us": 0,
+      "transmit_signal": true
+    },
+    "parking_target": {
+      "cve_ct": 1664152918672,
+      "cve_tick_final": 5161007000,
+      "cve_tick_first": 5108242000,
+      "cve_us_final": 1669261213437,
+      "cve_us_first": 1669261160672,
+      "details": {
+        "_abs_index_fp": "/home/wingboy/MyData/replay/apa_vm_byd/20240316160755/parking_target.index.json",
+        "_abs_proto_fp": "/home/wingboy/MyData/replay/apa_vm_byd/20240316160755/parking_target.bin",
+        "_index_fields": {
+          "frame_idx": 3,
+          "offset": 1,
+          "size": 2,
+          "tick": 4,
+          "timestamp": 0
+        },
+        "_index_final": [
+          "1669261213437",
+          607433,
+          998,
+          528,
+          "5161007000"
+        ],
+        "_index_first": [
+          "1669261160672",
+          0,
+          803,
+          0,
+          "5108242000"
+        ],
+        "_index_size": 529,
+        "_sorted_idx": 4
+      },
+      "enable_libflow": true,
+      "fix_tick_bias": 0,
+      "fix_timestamp_bias": 0,
+      "libflow_host": "0.0.0.0",
+      "libflow_name": "parking_target",
+      "libflow_port": "24012",
+      "offset_time_us": 0,
+      "transmit_signal": true
+    },
+    "parking_track": {
+      "cve_ct": 1664152918672,
+      "cve_tick_final": 5161007000,
+      "cve_tick_first": 5108242000,
+      "cve_us_final": 1669261213437,
+      "cve_us_first": 1669261160672,
+      "details": {
+        "_abs_index_fp": "/home/wingboy/MyData/replay/apa_vm_byd/20240316160755/parking_track.index.json",
+        "_abs_proto_fp": "/home/wingboy/MyData/replay/apa_vm_byd/20240316160755/parking_track.bin",
+        "_index_fields": {
+          "frame_idx": 3,
+          "offset": 1,
+          "size": 2,
+          "tick": 4,
+          "timestamp": 0
+        },
+        "_index_final": [
+          "1669261213437",
+          607433,
+          998,
+          528,
+          "5161007000"
+        ],
+        "_index_first": [
+          "1669261160672",
+          0,
+          803,
+          0,
+          "5108242000"
+        ],
+        "_index_size": 529,
+        "_sorted_idx": 4
+      },
+      "enable_libflow": true,
+      "fix_tick_bias": 0,
+      "fix_timestamp_bias": 0,
+      "libflow_host": "0.0.0.0",
+      "libflow_name": "parking_track",
+      "libflow_port": "24012",
+      "offset_time_us": 0,
+      "transmit_signal": true
+    },
+    "parkingspace": {
+      "cve_ct": 1664158305280,
+      "cve_tick_final": 5152221000,
+      "cve_tick_first": 5102850000,
+      "cve_us_final": 1669261204651,
+      "cve_us_first": 1669261155280,
+      "details": {
+        "_abs_index_fp": "/home/wingboy/MyData/replay/apa_vm_byd/20240316160755/parkingspace.index.json",
+        "_abs_proto_fp": "/home/wingboy/MyData/replay/apa_vm_byd/20240316160755/parkingspace.bin",
+        "_index_fields": {
+          "frame_idx": 3,
+          "offset": 1,
+          "size": 2,
+          "tick": 4,
+          "timestamp": 0
+        },
+        "_index_final": [
+          "1669261204651",
+          6349,
+          428,
+          19,
+          "5152221000"
+        ],
+        "_index_first": [
+          "1669261155280",
+          0,
+          298,
+          0,
+          "5102850000"
+        ],
+        "_index_size": 20,
+        "_sorted_idx": 4
+      },
+      "enable_libflow": true,
+      "fix_tick_bias": 0,
+      "fix_timestamp_bias": 0,
+      "libflow_host": "0.0.0.0",
+      "libflow_name": "parkingspace",
+      "libflow_port": "24012",
+      "offset_time_us": 0,
+      "transmit_signal": true
+    },
+    "parkingspace_to_ui": {
+      "cve_ct": -5108391000000,
+      "cve_tick_final": 5160907000000,
+      "cve_tick_first": 5108391000000,
+      "cve_us_final": 0,
+      "cve_us_first": 0,
+      "details": {
+        "_abs_index_fp": "/home/wingboy/MyData/replay/apa_vm_byd/20240316160755/parkingspace_to_ui.index.json",
+        "_abs_proto_fp": "/home/wingboy/MyData/replay/apa_vm_byd/20240316160755/parkingspace_to_ui.bin",
+        "_index_fields": {
+          "frame_idx": 3,
+          "offset": 1,
+          "size": 2,
+          "tick": 4,
+          "timestamp": 0
+        },
+        "_index_final": [
+          "0",
+          1271076,
+          285,
+          866,
+          "5160907000000"
+        ],
+        "_index_first": [
+          "0",
+          0,
+          853,
+          0,
+          "5108391000000"
+        ],
+        "_index_size": 867,
+        "_sorted_idx": 4
+      },
+      "enable_libflow": true,
+      "fix_tick_bias": 0,
+      "fix_timestamp_bias": 0,
+      "libflow_host": "0.0.0.0",
+      "libflow_name": "parkingspace_to_ui",
+      "libflow_port": "24012",
+      "offset_time_us": 0,
+      "transmit_signal": true
+    },
+    "planning": {
+      "cve_ct": 1664145847750,
+      "cve_tick_final": 5163671000,
+      "cve_tick_first": 5115320000,
+      "cve_us_final": 1669261216101,
+      "cve_us_first": 1669261167750,
+      "details": {
+        "_abs_index_fp": "/home/wingboy/MyData/replay/apa_vm_byd/20240316160755/planning.index.json",
+        "_abs_proto_fp": "/home/wingboy/MyData/replay/apa_vm_byd/20240316160755/planning.bin",
+        "_index_fields": {
+          "frame_idx": 3,
+          "offset": 1,
+          "size": 2,
+          "tick": 4,
+          "timestamp": 0
+        },
+        "_index_final": [
+          "1669261216101",
+          981511,
+          15,
+          438,
+          "5163671000"
+        ],
+        "_index_first": [
+          "1669261167750",
+          0,
+          15,
+          0,
+          "5115320000"
+        ],
+        "_index_size": 439,
+        "_sorted_idx": 4
+      },
+      "enable_libflow": true,
+      "fix_tick_bias": 0,
+      "fix_timestamp_bias": 0,
+      "libflow_host": "0.0.0.0",
+      "libflow_name": "planning",
+      "libflow_port": "24012",
+      "offset_time_us": 0,
+      "transmit_signal": true
+    },
+    "planning_to_hmi": {
+      "cve_ct": 1664154016566,
+      "cve_tick_final": 5152221085,
+      "cve_tick_first": 5107143007,
+      "cve_us_final": 1669261204651,
+      "cve_us_first": 1669261159573,
+      "details": {
+        "_abs_index_fp": "/home/wingboy/MyData/replay/apa_vm_byd/20240316160755/planning_to_hmi.index.json",
+        "_abs_proto_fp": "/home/wingboy/MyData/replay/apa_vm_byd/20240316160755/planning_to_hmi.bin",
+        "_index_fields": {
+          "frame_idx": 3,
+          "offset": 1,
+          "size": 2,
+          "tick": 4,
+          "timestamp": 0
+        },
+        "_index_final": [
+          "1669261204651",
+          21752,
+          56,
+          384,
+          "5152221085"
+        ],
+        "_index_first": [
+          "1669261159573",
+          0,
+          43,
+          0,
+          "5107143007"
+        ],
+        "_index_size": 385,
+        "_sorted_idx": 4
+      },
+      "enable_libflow": true,
+      "fix_tick_bias": 0,
+      "fix_timestamp_bias": 0,
+      "libflow_host": "0.0.0.0",
+      "libflow_name": "planning_to_hmi",
+      "libflow_port": "24012",
+      "offset_time_us": 0,
+      "transmit_signal": true
+    },
+    "post_roadmarks": {
+      "enable_libflow": true,
+      "libflow_host": "0.0.0.0",
+      "libflow_name": "post_roadmarks",
+      "libflow_port": "24012",
+      "offset_time_us": 0,
+      "transmit_signal": true
+    },
+    "raw_ins_ps": {
+      "cve_ct": 1664152968622,
+      "cve_tick_final": 5160907000,
+      "cve_tick_first": 5108192000,
+      "cve_us_final": 1669261213337,
+      "cve_us_first": 1669261160622,
+      "details": {
+        "_abs_index_fp": "/home/wingboy/MyData/replay/apa_vm_byd/20240316160755/raw_ins_ps.index.json",
+        "_abs_proto_fp": "/home/wingboy/MyData/replay/apa_vm_byd/20240316160755/raw_ins_ps.bin",
+        "_index_fields": {
+          "frame_idx": 3,
+          "offset": 1,
+          "size": 2,
+          "tick": 4,
+          "timestamp": 0
+        },
+        "_index_final": [
+          "1669261213337",
+          186795,
+          57,
+          462,
+          "5160907000"
+        ],
+        "_index_first": [
+          "1669261160622",
+          0,
+          737,
+          0,
+          "5108192000"
+        ],
+        "_index_size": 463,
+        "_sorted_idx": 4
+      },
+      "enable_libflow": true,
+      "fix_tick_bias": 0,
+      "fix_timestamp_bias": 0,
+      "libflow_host": "0.0.0.0",
+      "libflow_name": "raw_ins_ps",
+      "libflow_port": "24012",
+      "offset_time_us": 0,
+      "transmit_signal": true
+    },
+    "soc_to_ihu": {
+      "cve_ct": 1664150052683347,
+      "cve_tick_final": 5161779393000,
+      "cve_tick_first": 5111112812000,
+      "cve_us_final": 1669261216161928,
+      "cve_us_first": 1669261165495347,
+      "details": {
+        "_abs_index_fp": "/home/wingboy/MyData/replay/apa_vm_byd/20240316160755/soc_to_ihu.index.json",
+        "_abs_proto_fp": "/home/wingboy/MyData/replay/apa_vm_byd/20240316160755/soc_to_ihu.bin",
+        "_index_fields": {
+          "frame_idx": 3,
+          "offset": 1,
+          "size": 2,
+          "tick": 4,
+          "timestamp": 0
+        },
+        "_index_final": [
+          "1669261216161928",
+          3484,
+          34,
+          102,
+          "5161779393000"
+        ],
+        "_index_first": [
+          "1669261165495347",
+          0,
+          36,
+          0,
+          "5111112812000"
+        ],
+        "_index_size": 103,
+        "_sorted_idx": 4
+      },
+      "enable_libflow": true,
+      "fix_tick_bias": 0,
+      "fix_timestamp_bias": 0,
+      "libflow_host": "0.0.0.0",
+      "libflow_name": "soc_to_ihu",
+      "libflow_port": "24012",
+      "offset_time_us": 0,
+      "transmit_signal": true
+    },
+    "uss": {
+      "cve_ct": 1664145463135,
+      "cve_tick_final": 5163757000,
+      "cve_tick_first": 5115705000,
+      "cve_us_final": 1669261216187,
+      "cve_us_first": 1669261168135,
+      "details": {
+        "_abs_index_fp": "/home/wingboy/MyData/replay/apa_vm_byd/20240316160755/uss.index.json",
+        "_abs_proto_fp": "/home/wingboy/MyData/replay/apa_vm_byd/20240316160755/uss.bin",
+        "_index_fields": {
+          "frame_idx": 3,
+          "offset": 1,
+          "size": 2,
+          "tick": 4,
+          "timestamp": 0
+        },
+        "_index_final": [
+          "1669261216187",
+          73036,
+          76,
+          961,
+          "5163757000"
+        ],
+        "_index_first": [
+          "1669261168135",
+          0,
+          76,
+          0,
+          "5115705000"
+        ],
+        "_index_size": 962,
+        "_sorted_idx": 4
+      },
+      "enable_libflow": true,
+      "fix_tick_bias": 0,
+      "fix_timestamp_bias": 0,
+      "libflow_host": "0.0.0.0",
+      "libflow_name": "uss",
+      "libflow_port": "24012",
+      "offset_time_us": 0,
+      "transmit_signal": true
+    },
+    "uss_parkingspace_mviz": {
+      "cve_ct": 1664154204385,
+      "cve_tick_final": 5123904000,
+      "cve_tick_first": 5106955000,
+      "cve_us_final": 1669261176334,
+      "cve_us_first": 1669261159385,
+      "details": {
+        "_abs_index_fp": "/home/wingboy/MyData/replay/apa_vm_byd/20240316160755/uss_parkingspace_mviz.index.json",
+        "_abs_proto_fp": "/home/wingboy/MyData/replay/apa_vm_byd/20240316160755/uss_parkingspace_mviz.bin",
+        "_index_fields": {
+          "frame_idx": 3,
+          "offset": 1,
+          "size": 2,
+          "tick": 4,
+          "timestamp": 0
+        },
+        "_index_final": [
+          "1669261176334",
+          2926,
+          19,
+          154,
+          "5123904000"
+        ],
+        "_index_first": [
+          "1669261159385",
+          0,
+          19,
+          0,
+          "5106955000"
+        ],
+        "_index_size": 155,
+        "_sorted_idx": 4
+      },
+      "enable_libflow": true,
+      "fix_tick_bias": 0,
+      "fix_timestamp_bias": 0,
+      "libflow_host": "0.0.0.0",
+      "libflow_name": "uss_parkingspace_mviz",
+      "libflow_port": "24012",
+      "offset_time_us": 0,
+      "transmit_signal": true
+    },
+    "vehicle_control": {
+      "cve_ct": 1669256052430000,
+      "cve_tick_final": 5161061000,
+      "cve_tick_first": 5108704000,
+      "cve_us_final": 1669261213491000,
+      "cve_us_first": 1669261161134000,
+      "details": {
+        "_abs_index_fp": "/home/wingboy/MyData/replay/apa_vm_byd/20240316160755/vehicle_control.index.json",
+        "_abs_proto_fp": "/home/wingboy/MyData/replay/apa_vm_byd/20240316160755/vehicle_control.bin",
+        "_index_fields": {
+          "frame_idx": 3,
+          "offset": 1,
+          "size": 2,
+          "tick": 4,
+          "timestamp": 0
+        },
+        "_index_final": [
+          "1669261213491000",
+          74485,
+          17,
+          2146,
+          "5161061000"
+        ],
+        "_index_first": [
+          "1669261161134000",
+          0,
+          17,
+          0,
+          "5108704000"
+        ],
+        "_index_size": 2147,
+        "_sorted_idx": 4
+      },
+      "enable_libflow": true,
+      "fix_tick_bias": 0,
+      "fix_timestamp_bias": 0,
+      "libflow_host": "0.0.0.0",
+      "libflow_name": "vehicle_control",
+      "libflow_port": "24012",
+      "offset_time_us": 0,
+      "transmit_signal": true
+    },
+    "vehicle_signal": {
+      "cve_ct": 1664145407191,
+      "cve_tick_final": 5163775000,
+      "cve_tick_first": 5115761000,
+      "cve_us_final": 1669261216205,
+      "cve_us_first": 1669261168191,
+      "details": {
+        "_abs_index_fp": "/home/wingboy/MyData/replay/apa_vm_byd/20240316160755/vehicle_signal.index.json",
+        "_abs_proto_fp": "/home/wingboy/MyData/replay/apa_vm_byd/20240316160755/vehicle_signal.bin",
+        "_index_fields": {
+          "frame_idx": 3,
+          "offset": 1,
+          "size": 2,
+          "tick": 4,
+          "timestamp": 0
+        },
+        "_index_final": [
+          "1669261216205",
+          310800,
+          336,
+          925,
+          "5163775000"
+        ],
+        "_index_first": [
+          "1669261168191",
+          0,
+          336,
+          0,
+          "5115761000"
+        ],
+        "_index_size": 926,
+        "_sorted_idx": 4
+      },
+      "enable_libflow": true,
+      "fix_tick_bias": 0,
+      "fix_timestamp_bias": 0,
+      "libflow_host": "0.0.0.0",
+      "libflow_name": "vehicle_signal",
+      "libflow_port": "24012",
+      "offset_time_us": 0,
+      "transmit_signal": true
+    },
+    "vis_parkingspace": {
+      "cve_ct": 1664158305280,
+      "cve_tick_final": 5152221000,
+      "cve_tick_first": 5102850000,
+      "cve_us_final": 1669261204651,
+      "cve_us_first": 1669261155280,
+      "details": {
+        "_abs_index_fp": "/home/wingboy/MyData/replay/apa_vm_byd/20240316160755/vis_parkingspace.index.json",
+        "_abs_proto_fp": "/home/wingboy/MyData/replay/apa_vm_byd/20240316160755/vis_parkingspace.bin",
+        "_index_fields": {
+          "frame_idx": 3,
+          "offset": 1,
+          "size": 2,
+          "tick": 4,
+          "timestamp": 0
+        },
+        "_index_final": [
+          "1669261204651",
+          6349,
+          428,
+          19,
+          "5152221000"
+        ],
+        "_index_first": [
+          "1669261155280",
+          0,
+          298,
+          0,
+          "5102850000"
+        ],
+        "_index_size": 20,
+        "_sorted_idx": 4
+      },
+      "enable_libflow": true,
+      "fix_tick_bias": 0,
+      "fix_timestamp_bias": 0,
+      "libflow_host": "0.0.0.0",
+      "libflow_name": "vis_parkingspace",
+      "libflow_port": "24012",
+      "offset_time_us": 0,
+      "transmit_signal": true
+    },
+    "vis_parkingspace_to_ui": {
+      "cve_ct": 1664153168422,
+      "cve_tick_final": 5160707000,
+      "cve_tick_first": 5107992000,
+      "cve_us_final": 1669261213137,
+      "cve_us_first": 1669261160422,
+      "details": {
+        "_abs_index_fp": "/home/wingboy/MyData/replay/apa_vm_byd/20240316160755/vis_parkingspace_to_ui.index.json",
+        "_abs_proto_fp": "/home/wingboy/MyData/replay/apa_vm_byd/20240316160755/vis_parkingspace_to_ui.bin",
+        "_index_fields": {
+          "frame_idx": 3,
+          "offset": 1,
+          "size": 2,
+          "tick": 4,
+          "timestamp": 0
+        },
+        "_index_final": [
+          "1669261213137",
+          756707,
+          1697,
+          438,
+          "5160707000"
+        ],
+        "_index_first": [
+          "1669261160422",
+          0,
+          1709,
+          0,
+          "5107992000"
+        ],
+        "_index_size": 439,
+        "_sorted_idx": 4
+      },
+      "enable_libflow": true,
+      "fix_tick_bias": 0,
+      "fix_timestamp_bias": 0,
+      "libflow_host": "0.0.0.0",
+      "libflow_name": "vis_parkingspace_to_ui",
+      "libflow_port": "24012",
+      "offset_time_us": 0,
+      "transmit_signal": true
+    },
+    "vtr": {
+      "enable_libflow": true,
+      "libflow_host": "0.0.0.0",
+      "libflow_name": "vtr",
+      "libflow_port": "24012",
+      "offset_time_us": 0,
+      "transmit_signal": true
+    }
+  },
+  "_inspect_info": {
+    "g_current_task_id": 0,
+    "m_camera_map": {
+      "bev_libflow": {
+        "camera_id": 0,
+        "height": 480,
+        "name": "bev_libflow",
+        "width": 384
+      },
+      "camera30": {
+        "camera_id": 30,
+        "height": 1600,
+        "name": "camera30",
+        "width": 2560
+      }
+    },
+    "m_canmsg_count": 0,
+    "m_event_total": 20675,
+    "m_final_event_us": 5161779393000,
+    "m_final_frame_id": 0,
+    "m_final_frame_us": 5160957000,
+    "m_first_event_us": 0,
+    "m_first_frame_id": 0,
+    "m_first_frame_us": 5108242000,
+    "m_frame_count": 1514,
+    "m_frame_queue_total": 20675,
+    "m_libflow_map": {
+      "ap_map_response": "ws://0.0.0.0:24012",
+      "apa_gnss": "ws://0.0.0.0:24012",
+      "apa_hmi_signal": "ws://0.0.0.0:24012",
+      "apa_hmi_signal_res": "ws://0.0.0.0:24012",
+      "apa_state_control": "ws://0.0.0.0:24012",
+      "apa_vehicle_signal": "ws://0.0.0.0:24012",
+      "avm_settings": "ws://0.0.0.0:24012",
+      "bev_libflow": "ws://0.0.0.0:28010",
+      "camera30": "ws://0.0.0.0:24011",
+      "cus_parkingspace": "ws://0.0.0.0:24012",
+      "freespace": "ws://0.0.0.0:24012",
+      "gridmap": "ws://0.0.0.0:24012",
+      "hmi_to_soc": "ws://0.0.0.0:24012",
+      "hmi_to_soc_havp": "ws://0.0.0.0:24012",
+      "ihu_to_avm": "ws://0.0.0.0:24012",
+      "ihu_to_soc": "ws://0.0.0.0:24012",
+      "imu": "ws://0.0.0.0:24012",
+      "imu_correct_data": "ws://0.0.0.0:24012",
+      "imu_rtk": "ws://0.0.0.0:24012",
+      "map_engine_response": "ws://0.0.0.0:24012",
+      "odo_vehicle_signal": "ws://0.0.0.0:24012",
+      "odometry_3d": "ws://0.0.0.0:24012",
+      "odometry_3d_gt": "ws://0.0.0.0:24012",
+      "odometry_3d_lz": "ws://0.0.0.0:24012",
+      "parking_gnss": "ws://0.0.0.0:24012",
+      "parking_ins": "ws://0.0.0.0:24012",
+      "parking_object": "ws://0.0.0.0:24012",
+      "parking_target": "ws://0.0.0.0:24012",
+      "parking_track": "ws://0.0.0.0:24012",
+      "parkingspace": "ws://0.0.0.0:24012",
+      "parkingspace_to_ui": "ws://0.0.0.0:24012",
+      "planning": "ws://0.0.0.0:24012",
+      "planning_to_hmi": "ws://0.0.0.0:24012",
+      "post_roadmarks": "ws://0.0.0.0:24012",
+      "raw_ins_ps": "ws://0.0.0.0:24012",
+      "soc_to_ihu": "ws://0.0.0.0:24012",
+      "uss": "ws://0.0.0.0:24012",
+      "uss_parkingspace_mviz": "ws://0.0.0.0:24012",
+      "vehicle_control": "ws://0.0.0.0:24012",
+      "vehicle_signal": "ws://0.0.0.0:24012",
+      "vis_parkingspace": "ws://0.0.0.0:24012",
+      "vis_parkingspace_to_ui": "ws://0.0.0.0:24012",
+      "vtr": "ws://0.0.0.0:24012"
+    },
+    "m_proto_queue_total": 0
+  },
+  "_signal": "json:signal:start:0",
+  "current_source": "/home/wingboy/MyData/replay/apa_vm_byd/20240316160755/",
+  "current_task": {
+    "datas": [
+      {
+        "files": [
+          "camera_stitching.data.json"
+        ],
+        "name": "camera30",
+        "options": {
+          "enable_libflow": true,
+          "libflow_name": "camera30",
+          "libflow_port": 24011
+        }
+      },
+      {
+        "files": [
+          "bev_libflow.data.json"
+        ],
+        "name": "bev_libflow",
+        "options": {
+          "enable_libflow": true,
+          "libflow_name": "bev_libflow",
+          "libflow_port": 28010
+        }
+      },
+      {
+        "files": [
+          "vehicle_signal.data.json"
+        ],
+        "name": "vehicle_signal",
+        "options": {
+          "enable_libflow": true,
+          "libflow_name": "vehicle_signal",
+          "libflow_port": 24012
+        }
+      },
+      {
+        "files": [
+          "odo_vehicle_signal.data.json"
+        ],
+        "name": "odo_vehicle_signal",
+        "options": {
+          "enable_libflow": true,
+          "libflow_name": "odo_vehicle_signal",
+          "libflow_port": 24012
+        }
+      },
+      {
+        "files": [
+          "apa_vehicle_signal.data.json"
+        ],
+        "name": "apa_vehicle_signal",
+        "options": {
+          "enable_libflow": true,
+          "libflow_name": "apa_vehicle_signal",
+          "libflow_port": 24012
+        }
+      },
+      {
+        "files": [
+          "imu.data.json"
+        ],
+        "name": "imu",
+        "options": {
+          "enable_libflow": true,
+          "libflow_name": "imu",
+          "libflow_port": 24012
+        }
+      },
+      {
+        "files": [
+          "imu_correct_data.data.json"
+        ],
+        "name": "imu_correct_data",
+        "options": {
+          "enable_libflow": true,
+          "libflow_name": "imu_correct_data",
+          "libflow_port": 24012
+        }
+      },
+      {
+        "files": [
+          "imu_rtk.data.json"
+        ],
+        "name": "imu_rtk",
+        "options": {
+          "enable_libflow": true,
+          "libflow_name": "imu_rtk",
+          "libflow_port": 24012
+        }
+      },
+      {
+        "files": [
+          "apa_gnss.data.json"
+        ],
+        "name": "apa_gnss",
+        "options": {
+          "enable_libflow": true,
+          "libflow_name": "apa_gnss",
+          "libflow_port": 24012
+        }
+      },
+      {
+        "files": [
+          "uss.data.json"
+        ],
+        "name": "uss",
+        "options": {
+          "enable_libflow": true,
+          "libflow_name": "uss",
+          "libflow_port": 24012
+        }
+      },
+      {
+        "files": [
+          "apa_state_control.data.json"
+        ],
+        "name": "apa_state_control",
+        "options": {
+          "enable_libflow": true,
+          "libflow_name": "apa_state_control",
+          "libflow_port": 24012
+        }
+      },
+      {
+        "files": [
+          "odometry_3d.data.json"
+        ],
+        "name": "odometry_3d",
+        "options": {
+          "enable_libflow": true,
+          "libflow_name": "odometry_3d",
+          "libflow_port": 24012
+        }
+      },
+      {
+        "files": [
+          "ap_map_response.data.json"
+        ],
+        "name": "ap_map_response",
+        "options": {
+          "enable_libflow": true,
+          "libflow_name": "ap_map_response",
+          "libflow_port": 24012
+        }
+      },
+      {
+        "files": [
+          "map_engine_response.data.json"
+        ],
+        "name": "map_engine_response",
+        "options": {
+          "enable_libflow": true,
+          "libflow_name": "map_engine_response",
+          "libflow_port": 24012
+        }
+      },
+      {
+        "files": [
+          "raw_ins_ps.data.json"
+        ],
+        "name": "raw_ins_ps",
+        "options": {
+          "enable_libflow": true,
+          "libflow_name": "raw_ins_ps",
+          "libflow_port": 24012
+        }
+      },
+      {
+        "files": [
+          "freespace.data.json"
+        ],
+        "name": "freespace",
+        "options": {
+          "enable_libflow": true,
+          "libflow_name": "freespace",
+          "libflow_port": 24012
+        }
+      },
+      {
+        "files": [
+          "gridmap.data.json"
+        ],
+        "name": "gridmap",
+        "options": {
+          "enable_libflow": true,
+          "libflow_name": "gridmap",
+          "libflow_port": 24012
+        }
+      },
+      {
+        "files": [
+          "parkingspace.data.json"
+        ],
+        "name": "parkingspace",
+        "options": {
+          "enable_libflow": true,
+          "libflow_name": "parkingspace",
+          "libflow_port": 24012
+        }
+      },
+      {
+        "files": [
+          "uss_parkingspace_mviz.data.json"
+        ],
+        "name": "uss_parkingspace_mviz",
+        "options": {
+          "enable_libflow": true,
+          "libflow_name": "uss_parkingspace_mviz",
+          "libflow_port": 24012
+        }
+      },
+      {
+        "files": [
+          "cus_parkingspace.data.json"
+        ],
+        "name": "cus_parkingspace",
+        "options": {
+          "enable_libflow": true,
+          "libflow_name": "cus_parkingspace",
+          "libflow_port": 24012
+        }
+      },
+      {
+        "files": [
+          "cus_parkingspace.data.json"
+        ],
+        "name": "cus_parkingspace",
+        "options": {
+          "enable_libflow": true,
+          "libflow_name": "cus_parkingspace",
+          "libflow_port": 24012
+        }
+      },
+      {
+        "files": [
+          "vis_parkingspace.data.json"
+        ],
+        "name": "vis_parkingspace",
+        "options": {
+          "enable_libflow": true,
+          "libflow_name": "vis_parkingspace",
+          "libflow_port": 24012
+        }
+      },
+      {
+        "files": [
+          "vis_parkingspace_to_ui.data.json"
+        ],
+        "name": "vis_parkingspace_to_ui",
+        "options": {
+          "enable_libflow": true,
+          "libflow_name": "vis_parkingspace_to_ui",
+          "libflow_port": 24012
+        }
+      },
+      {
+        "files": [
+          "parkingspace_to_ui.data.json"
+        ],
+        "name": "parkingspace_to_ui",
+        "options": {
+          "enable_libflow": true,
+          "libflow_name": "parkingspace_to_ui",
+          "libflow_port": 24012
+        }
+      },
+      {
+        "files": [
+          "post_roadmarks.data.json"
+        ],
+        "name": "post_roadmarks",
+        "options": {
+          "enable_libflow": true,
+          "libflow_name": "post_roadmarks",
+          "libflow_port": 24012
+        }
+      },
+      {
+        "files": [
+          "parking_object.data.json"
+        ],
+        "name": "parking_object",
+        "options": {
+          "enable_libflow": true,
+          "libflow_name": "parking_object",
+          "libflow_port": 24012
+        }
+      },
+      {
+        "files": [
+          "parking_target.data.json"
+        ],
+        "name": "parking_target",
+        "options": {
+          "enable_libflow": true,
+          "libflow_name": "parking_target",
+          "libflow_port": 24012
+        }
+      },
+      {
+        "files": [
+          "parking_track.data.json"
+        ],
+        "name": "parking_track",
+        "options": {
+          "enable_libflow": true,
+          "libflow_name": "parking_track",
+          "libflow_port": 24012
+        }
+      },
+      {
+        "files": [
+          "planning.data.json"
+        ],
+        "name": "planning",
+        "options": {
+          "enable_libflow": true,
+          "libflow_name": "planning",
+          "libflow_port": 24012
+        }
+      },
+      {
+        "files": [
+          "planning_to_hmi.data.json"
+        ],
+        "name": "planning_to_hmi",
+        "options": {
+          "enable_libflow": true,
+          "libflow_name": "planning_to_hmi",
+          "libflow_port": 24012
+        }
+      },
+      {
+        "files": [
+          "vehicle_control.data.json"
+        ],
+        "name": "vehicle_control",
+        "options": {
+          "enable_libflow": true,
+          "libflow_name": "vehicle_control",
+          "libflow_port": 24012
+        }
+      },
+      {
+        "files": [
+          "hmi_to_soc_havp.data.json"
+        ],
+        "name": "hmi_to_soc_havp",
+        "options": {
+          "enable_libflow": true,
+          "libflow_name": "hmi_to_soc_havp",
+          "libflow_port": 24012
+        }
+      },
+      {
+        "files": [
+          "hmi_to_soc.data.json"
+        ],
+        "name": "hmi_to_soc",
+        "options": {
+          "enable_libflow": true,
+          "libflow_name": "hmi_to_soc",
+          "libflow_port": 24012
+        }
+      },
+      {
+        "files": [
+          "ihu_to_soc.data.json"
+        ],
+        "name": "ihu_to_soc",
+        "options": {
+          "enable_libflow": true,
+          "libflow_name": "ihu_to_soc",
+          "libflow_port": 24012
+        }
+      },
+      {
+        "files": [
+          "avm_settings.data.json"
+        ],
+        "name": "avm_settings",
+        "options": {
+          "enable_libflow": true,
+          "libflow_name": "avm_settings",
+          "libflow_port": 24012
+        }
+      },
+      {
+        "files": [
+          "soc_to_ihu.data.json"
+        ],
+        "name": "soc_to_ihu",
+        "options": {
+          "enable_libflow": true,
+          "libflow_name": "soc_to_ihu",
+          "libflow_port": 24012
+        }
+      },
+      {
+        "files": [
+          "vtr.data.json"
+        ],
+        "name": "vtr",
+        "options": {
+          "enable_libflow": true,
+          "libflow_name": "vtr",
+          "libflow_port": 24012
+        }
+      },
+      {
+        "files": [
+          "odometry_3d_gt.data.json"
+        ],
+        "name": "odometry_3d_gt",
+        "options": {
+          "enable_libflow": true,
+          "libflow_name": "odometry_3d_gt",
+          "libflow_port": 24012
+        }
+      },
+      {
+        "files": [
+          "odometry_3d_lz.data.json"
+        ],
+        "name": "odometry_3d_lz",
+        "options": {
+          "enable_libflow": true,
+          "libflow_name": "odometry_3d_lz",
+          "libflow_port": 24012
+        }
+      },
+      {
+        "files": [
+          "parking_ins.data.json"
+        ],
+        "name": "parking_ins",
+        "options": {
+          "enable_libflow": true,
+          "libflow_name": "parking_ins",
+          "libflow_port": 24012
+        }
+      },
+      {
+        "files": [
+          "parking_gnss.data.json"
+        ],
+        "name": "parking_gnss",
+        "options": {
+          "enable_libflow": true,
+          "libflow_name": "parking_gnss",
+          "libflow_port": 24012
+        }
+      },
+      {
+        "files": [
+          "ihu_to_avm.data.json"
+        ],
+        "name": "ihu_to_avm",
+        "options": {
+          "enable_libflow": true,
+          "libflow_name": "ihu_to_avm",
+          "libflow_port": 24012
+        }
+      },
+      {
+        "files": [
+          "apa_hmi_signal.data.json"
+        ],
+        "name": "apa_hmi_signal",
+        "options": {
+          "enable_libflow": true,
+          "libflow_name": "apa_hmi_signal",
+          "libflow_port": 24012
+        }
+      },
+      {
+        "files": [
+          "apa_hmi_signal_res.data.json"
+        ],
+        "name": "apa_hmi_signal_res",
+        "options": {
+          "enable_libflow": true,
+          "libflow_name": "apa_hmi_signal_res",
+          "libflow_port": 24012
+        }
+      }
+    ],
+    "g_order_key": "tick",
+    "source": "/home/wingboy/MyData/replay/apa_vm_byd/20240316160755/"
+  },
+  "group_name": "YJTaskGroup",
+  "hil_start_at": "2024-03-22 16:23:29",
+  "hil_start_us": 1711095809740212,
+  "hil_version": "hil_2022.Ubuntu1804.v20230915_1645.release",
+  "task_options": {
+    "cansend_ctrl_on_ddsm": true,
+    "enable_bmcan": false,
+    "enable_libflow": true,
+    "enable_nanomsg": false,
+    "enable_usbcan": false,
+    "g_order_key": "tick",
+    "g_reverse_tick": false,
+    "send_speed_scale": 1.0,
+    "task_file": "./config/hil_task_mviz.json"
+  },
+  "template": "L2_HIL_LOCKING_TASK"
+}

@@ -1,0 +1,275 @@
+{
+  "ip": "192.168.98.233",
+  "topic_config": [
+    {
+      "port": "28015",
+      "topic": "camera_stitching",
+      "tick_unit": "us",
+      "enable": true
+    },
+    {
+      "port": "28010",
+      "topic": "bev_libflow",
+      "tick_unit": "us",
+      "enable": true
+    },
+    {
+      "port": "28014",
+      "topic": "camera_avm",
+      "tick_unit": "us",
+      "enable": true
+    },
+    {
+      "port": "24012",
+      "topic": "vehicle_signal",
+      "tick_unit": "ms",
+      "enable": true
+    },
+    {
+      "port": "24012",
+      "topic": "odo_vehicle_signal",
+      "tick_unit": "ms",
+      "enable": true
+    },
+    {
+      "port": "24012",
+      "topic": "apa_vehicle_signal",
+      "tick_unit": "ms",
+      "enable": true
+    },
+    {
+      "port": "24012",
+      "topic": "imu",
+      "tick_unit": "ms",
+      "enable": true
+    },
+    {
+      "port": "24012",
+      "topic": "imu_correct_data",
+      "tick_unit": "us",
+      "enable": true
+    },
+    {
+      "port": "24012",
+      "topic": "imu_rtk",
+      "tick_unit": "us",
+      "enable": true
+    },
+    {
+      "port": "24012",
+      "topic": "apa_gnss",
+      "tick_unit": "ms",
+      "enable": true
+    },
+    {
+      "port": "24012",
+      "topic": "uss",
+      "tick_unit": "ms",
+      "enable": true
+    },
+    {
+      "port": "24012",
+      "topic": "apa_state_control",
+      "tick_unit": "us",
+      "enable": true
+    },
+    {
+      "port": "24012",
+      "topic": "odometry_3d",
+      "tick_unit": "us",
+      "enable": true
+    },
+    {
+      "port": "24012",
+      "topic": "ap_map_response",
+      "tick_unit": "us",
+      "enable": true
+    },
+    {
+      "port": "24012",
+      "topic": "map_engine_response",
+      "tick_unit": "us",
+      "enable": true
+    },
+    {
+      "port": "24012",
+      "topic": "raw_ins_ps",
+      "tick_unit": "us",
+      "enable": true
+    },
+    {
+      "port": "24012",
+      "topic": "freespace",
+      "tick_unit": "us",
+      "enable": true
+    },
+    {
+      "port": "24012",
+      "topic": "gridmap",
+      "tick_unit": "us",
+      "enable": true
+    },
+    {
+      "port": "24012",
+      "topic": "uss_parkingspace_mviz",
+      "tick_unit": "us",
+      "enable": true
+    },
+    {
+      "port": "24012",
+      "topic": "vis_parkingspace",
+      "tick_unit": "us",
+      "enable": true
+    },
+    {
+      "port": "24012",
+      "topic": "vis_parkingspace_to_ui",
+      "tick_unit": "us",
+      "enable": true
+    },
+    {
+      "port": "24012",
+      "topic": "parkingspace",
+      "tick_unit": "us",
+      "enable": true
+    },
+    {
+      "port": "24012",
+      "topic": "parkingspace_to_ui",
+      "tick_unit": "ms",
+      "enable": true
+    },
+    {
+      "port": "24012",
+      "topic": "cus_parkingspace",
+      "tick_unit": "us",
+      "enable": true
+    },
+    {
+      "port": "24012",
+      "topic": "post_roadmarks",
+      "tick_unit": "us",
+      "enable": true
+    },
+    {
+      "port": "24012",
+      "topic": "parking_object",
+      "tick_unit": "us",
+      "enable": true
+    },
+    {
+      "port": "24012",
+      "topic": "parking_target",
+      "tick_unit": "us",
+      "enable": true
+    },
+    {
+      "port": "24012",
+      "topic": "parking_track",
+      "tick_unit": "us",
+      "enable": true
+    },
+    {
+      "port": "24012",
+      "topic": "planning",
+      "tick_unit": "us",
+      "enable": true
+    },
+    {
+      "port": "24012",
+      "topic": "planning_to_hmi",
+      "tick_unit": "us",
+      "enable": true
+    },
+    {
+      "port": "24012",
+      "topic": "vehicle_control",
+      "tick_unit": "us",
+      "enable": true
+    },
+    {
+      "port": "24012",
+      "topic": "hmi_to_soc_havp",
+      "tick_unit": "us",
+      "enable": true
+    },
+    {
+      "port": "24012",
+      "topic": "hmi_to_soc",
+      "tick_unit": "us",
+      "enable": true
+    },
+    {
+      "port": "24012",
+      "topic": "ihu_to_soc",
+      "tick_unit": "us",
+      "enable": true
+    },
+    {
+      "port": "24012",
+      "topic": "avm_settings",
+      "tick_unit": "ms",
+      "enable": true
+    },
+    {
+      "port": "24012",
+      "topic": "soc_to_ihu",
+      "tick_unit": "ms",
+      "enable": true
+    },
+    {
+      "port": "24012",
+      "topic": "odometry_3d_gt",
+      "tick_unit": "us",
+      "enable": true
+    },
+    {
+      "port": "24012",
+      "topic": "odometry_3d_lz",
+      "tick_unit": "us",
+      "enable": true
+    },
+    {
+      "port": "24012",
+      "topic": "parking_ins",
+      "tick_unit": "us",
+      "enable": true
+    },
+    {
+      "port": "24012",
+      "topic": "parking_gnss",
+      "tick_unit": "us",
+      "enable": true
+    },
+    {
+      "port": "24012",
+      "topic": "ihu_to_avm",
+      "tick_unit": "us",
+      "enable": true
+    },
+    {
+      "port": "24012",
+      "topic": "apa_hmi_signal",
+      "tick_unit": "us",
+      "enable": true
+    },
+    {
+      "port": "24012",
+      "topic": "apa_hmi_signal_res",
+      "tick_unit": "us",
+      "enable": true
+    },
+    {
+      "port": "24012",
+      "topic": "vtr",
+      "tick_unit": "us",
+      "enable": true
+    },
+    {
+      "port": "2080",
+      "topic": "*",
+      "tick_unit": "us",
+      "enable": true
+    }
+  ]
+}

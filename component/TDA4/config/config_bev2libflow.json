@@ -1,0 +1,53 @@
+{
+  "log_level": 1,
+  "topics": [
+    {
+      "topic": "camera30",
+      "dds_mode": "shm",
+      "buff_num": 100,
+      "elem_max_size": 8196
+    },
+    {
+      "topic": "camera32",
+      "dds_mode": "shm",
+      "buff_num": 100,
+      "elem_max_size": 8196
+    },
+    {
+      "topic": "camera31",
+      "dds_mode": "shm",
+      "buff_num": 100,
+      "elem_max_size": 8196
+    },
+    {
+      "topic": "camera20",
+      "dds_mode": "shm",
+      "buff_num": 100,
+      "elem_max_size": 8196
+    },
+    {
+      "topic": "camera24",
+      "dds_mode": "shm",
+      "buff_num": 100,
+      "elem_max_size": 8196
+    },
+    {
+      "topic": "camera23",
+      "dds_mode": "shm",
+      "buff_num": 100,
+      "elem_max_size": 8196
+    },
+    {
+      "topic": "camera22",
+      "dds_mode": "shm",
+      "buff_num": 100,
+      "elem_max_size": 8196
+    },
+    {
+      "topic": "camera41",
+      "dds_mode": "shm",
+      "buff_num": 100,
+      "elem_max_size": 8196
+    }
+  ]
+}

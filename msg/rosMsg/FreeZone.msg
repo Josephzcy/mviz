@@ -1,0 +1,10 @@
+Point2f point_image_coord              # 采样点图像坐标  字节数:16 取值范围(w>=x>=0, h>=y>=0)
+geometry_msgs/Point point_vehicle_coord            # 采样点世界坐标  字节数:24 取值范围(100>=x>=0, 20>=y>=-20)
+float32 dist                                               # 采样点与本车距离 类型:float32 字节数:4 取值范围(0~100) 
+float32 angle                                              # 采样点与本车前进方向角度(弧度) 类型:float32 字节数:4 取值范围(-π/2~π/2)
+#LaneIdx lane_index                                      # 采样点所属车道 类型:int32 字节数:4 取值范围(0~7)
+float32 confidence                                         # 置信度 类型:float32 字节数:4 取值范围(0~1)
+#SpaceType type                                           # 采样点邻近不可同行类型 类型:int 字节数:4 取值范围(0~7)
+#MotionProp motion_prop                                   # 采样点运动属性 类型:int 字节数:4 取值范围(0~2)
+uint32 camera_id                                         # 摄像头id
+uint32 sensor_type                                      # (0-camera, 1-radar, 2-LIDAR, 3-Hdmap, 4-LIDAR_CAM_FUSION)

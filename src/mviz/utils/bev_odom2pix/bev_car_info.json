@@ -1,0 +1,17 @@
+﻿{
+    "car_length": 4.98,
+    "car_width": 1.907,
+    "car_front_wheelspan": 1.610,
+    "car_rear_wheelspan": 1.615,
+    "car_wheelbase": 2.920,
+    "car_wheelwidth": 0,
+    "car_front_overhang": 0.956,
+    "car_front_blend": 0.00,
+    "car_rear_blend": 0.00,
+    "car_left_blend": 0.00,
+    "car_right_blend": 0.00,
+    "front_camera_height": 0.52,
+    "rear_camera_height": 0.54,
+    "left_camera_height": 0.954,
+    "right_camera_height": 0.96
+}

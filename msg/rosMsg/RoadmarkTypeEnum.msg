@@ -1,0 +1,19 @@
+int8 kBackGround = 0              # 背景
+int8 kStraightArrow = 1           # 直行
+int8 kLeftArrow = 2               # 左转
+int8 kRightArrow = 3              # 右转
+int8 kUturnArrow = 4              # 掉头
+int8 kDiamond = 5                 # 菱形 (前方有人行横道)
+int8 kInvertedTriangle = 6        # 倒三角 (减速让行)
+int8 kOppositemarks = 7           # 对向标识
+int8 kStopLane = 8                # 停止线
+int8 kZebraCrossing = 9           # 斑马线
+int8 kNoParkingArea = 10          # 禁止停车
+int8 kGoreArea = 11               # 分道角区
+int8 kGroundWords = 12            # 地面文字
+int8 kDecelerationLine = 13       # 减速标识
+int8 kSpeedBump = 14              # 减速带
+int8 kManholeCover = 15           # 井盖
+int8 kPole = 16    			      # 路灯杆
+int8 kTypeNums = 17               # 总类型数
+int8 value

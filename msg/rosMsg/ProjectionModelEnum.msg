@@ -1,0 +1,7 @@
+int8 PRJ_MODEL_UNKNOWN = 0
+int8 FISHEYE = 1
+int8 MEI = 2
+int8 PIN_HOLE = 3
+int8 ATAN = 4
+int8 DAVIDE_SCARAMUZZA = 5
+int8 value

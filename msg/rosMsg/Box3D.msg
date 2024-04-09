@@ -1,0 +1,9 @@
+geometry_msgs/Point lower_lt
+geometry_msgs/Point lower_lb
+geometry_msgs/Point lower_rb
+geometry_msgs/Point lower_rt
+geometry_msgs/Point upper_lt
+geometry_msgs/Point upper_lb
+geometry_msgs/Point upper_rb
+geometry_msgs/Point upper_rt
+float32 conf

@@ -1,0 +1,507 @@
+{
+  "version": "l2",
+  "#created_at": "2022-11-03_0658",
+  "#使用说明:": "以#前缀的字段都是用来注释的，方便人阅读理解相关功能。可忽略或删除。",
+  "default_options": {
+    "enable_libflow": true,
+    "enable_nanomsg": false
+  },
+  "tasks": [
+    {
+      "name": "task_t1q-1",
+      "repeat": 1,
+      "detect_flag": "task-t1q.flag",
+      "source": "/home/wingboy/mviz_pilot/mviz2_ros/mviz_data/20240223162325",
+      "#source": "/home/wingboy/MyData/replay/havp_vm/20240229153257/",
+      "#start_tm": 1658999265875000,
+      "#end_tm": 1658999295875000,
+      "g_order_key": "tick",
+      "datas": [
+        {
+          "name": "camera30",
+          "files": [
+            "camera_stitching.data.json"
+          ],
+          "options": {
+            "enable_libflow": true,
+            "libflow_name": "camera30",
+            "libflow_port": 24011
+          }
+        },
+        {
+          "name": "bev_libflow",
+          "files": [
+            "bev_libflow.data.json"
+          ],
+          "options": {
+            "enable_libflow": true,
+            "libflow_name": "bev_libflow",
+            "libflow_port": 28010
+          }
+        },
+        {
+          "name": "vehicle_signal",
+          "files": [
+            "vehicle_signal.data.json"
+          ],
+          "options": {
+            "enable_libflow": true,
+            "libflow_name": "vehicle_signal",
+            "libflow_port": 24012
+          }
+        },
+        {
+          "name": "odo_vehicle_signal",
+          "files": [
+            "odo_vehicle_signal.data.json"
+          ],
+          "options": {
+            "enable_libflow": true,
+            "libflow_name": "odo_vehicle_signal",
+            "libflow_port": 24012
+          }
+        },
+        {
+          "name": "apa_vehicle_signal",
+          "files": [
+            "apa_vehicle_signal.data.json"
+          ],
+          "options": {
+            "enable_libflow": true,
+            "libflow_name": "apa_vehicle_signal",
+            "libflow_port": 24012
+          }
+        },
+        {
+          "name": "imu",
+          "files": [
+            "imu.data.json"
+          ],
+          "options": {
+            "enable_libflow": true,
+            "libflow_name": "imu",
+            "libflow_port": 24012
+          }
+        },
+        {
+          "name": "imu_correct_data",
+          "files": [
+            "imu_correct_data.data.json"
+          ],
+          "options": {
+            "enable_libflow": true,
+            "libflow_name": "imu_correct_data",
+            "libflow_port": 24012
+          }
+        },
+        {
+          "name": "imu_rtk",
+          "files": [
+            "imu_rtk.data.json"
+          ],
+          "options": {
+            "enable_libflow": true,
+            "libflow_name": "imu_rtk",
+            "libflow_port": 24012
+          }
+        },
+        {
+          "name": "apa_gnss",
+          "files": [
+            "apa_gnss.data.json"
+          ],
+          "options": {
+            "enable_libflow": true,
+            "libflow_name": "apa_gnss",
+            "libflow_port": 24012
+          }
+        },
+        {
+          "name": "uss",
+          "files": [
+            "uss.data.json"
+          ],
+          "options": {
+            "enable_libflow": true,
+            "libflow_name": "uss",
+            "libflow_port": 24012
+          }
+        },
+        {
+          "name": "apa_state_control",
+          "files": [
+            "apa_state_control.data.json"
+          ],
+          "options": {
+            "enable_libflow": true,
+            "libflow_name": "apa_state_control",
+            "libflow_port": 24012
+          }
+        },
+        {
+          "name": "odometry_3d",
+          "files": [
+            "odometry_3d.data.json"
+          ],
+          "options": {
+            "enable_libflow": true,
+            "libflow_name": "odometry_3d",
+            "libflow_port": 24012
+          }
+        },
+        {
+          "name": "ap_map_response",
+          "files": [
+            "ap_map_response.data.json"
+          ],
+          "options": {
+            "enable_libflow": true,
+            "libflow_name": "ap_map_response",
+            "libflow_port": 24012
+          }
+        },
+        {
+          "name": "map_engine_response",
+          "files": [
+            "map_engine_response.data.json"
+          ],
+          "options": {
+            "enable_libflow": true,
+            "libflow_name": "map_engine_response",
+            "libflow_port": 24012
+          }
+        },
+        {
+          "name": "raw_ins_ps",
+          "files": [
+            "raw_ins_ps.data.json"
+          ],
+          "options": {
+            "enable_libflow": true,
+            "libflow_name": "raw_ins_ps",
+            "libflow_port": 24012
+          }
+        },
+        {
+          "name": "freespace",
+          "files": [
+            "freespace.data.json"
+          ],
+          "options": {
+            "enable_libflow": true,
+            "libflow_name": "freespace",
+            "libflow_port": 24012
+          }
+        },
+        {
+          "name": "gridmap",
+          "files": [
+            "gridmap.data.json"
+          ],
+          "options": {
+            "enable_libflow": true,
+            "libflow_name": "gridmap",
+            "libflow_port": 24012
+          }
+        },
+        {
+          "name": "parkingspace",
+          "files": [
+            "parkingspace.data.json"
+          ],
+          "options": {
+            "enable_libflow": true,
+            "libflow_name": "parkingspace",
+            "libflow_port": 24012
+          }
+        },
+        {
+          "name": "uss_parkingspace_mviz",
+          "files": [
+            "uss_parkingspace_mviz.data.json"
+          ],
+          "options": {
+            "enable_libflow": true,
+            "libflow_name": "uss_parkingspace_mviz",
+            "libflow_port": 24012
+          }
+        },
+        {
+          "name": "cus_parkingspace",
+          "files": [
+            "cus_parkingspace.data.json"
+          ],
+          "options": {
+            "enable_libflow": true,
+            "libflow_name": "cus_parkingspace",
+            "libflow_port": 24012
+          }
+        },
+        {
+          "name": "cus_parkingspace",
+          "files": [
+            "cus_parkingspace.data.json"
+          ],
+          "options": {
+            "enable_libflow": true,
+            "libflow_name": "cus_parkingspace",
+            "libflow_port": 24012
+          }
+        },
+        {
+          "name": "vis_parkingspace",
+          "files": [
+            "vis_parkingspace.data.json"
+          ],
+          "options": {
+            "enable_libflow": true,
+            "libflow_name": "vis_parkingspace",
+            "libflow_port": 24012
+          }
+        },
+        {
+          "name": "vis_parkingspace_to_ui",
+          "files": [
+            "vis_parkingspace_to_ui.data.json"
+          ],
+          "options": {
+            "enable_libflow": true,
+            "libflow_name": "vis_parkingspace_to_ui",
+            "libflow_port": 24012
+          }
+        },
+        {
+          "name": "parkingspace_to_ui",
+          "files": [
+            "parkingspace_to_ui.data.json"
+          ],
+          "options": {
+            "enable_libflow": true,
+            "libflow_name": "parkingspace_to_ui",
+            "libflow_port": 24012
+          }
+        },
+        {
+          "name": "post_roadmarks",
+          "files": [
+            "post_roadmarks.data.json"
+          ],
+          "options": {
+            "enable_libflow": true,
+            "libflow_name": "post_roadmarks",
+            "libflow_port": 24012
+          }
+        },
+        {
+          "name": "parking_object",
+          "files": [
+            "parking_object.data.json"
+          ],
+          "options": {
+            "enable_libflow": true,
+            "libflow_name": "parking_object",
+            "libflow_port": 24012
+          }
+        },
+        {
+          "name": "parking_target",
+          "files": [
+            "parking_target.data.json"
+          ],
+          "options": {
+            "enable_libflow": true,
+            "libflow_name": "parking_target",
+            "libflow_port": 24012
+          }
+        },
+        {
+          "name": "parking_track",
+          "files": [
+            "parking_track.data.json"
+          ],
+          "options": {
+            "enable_libflow": true,
+            "libflow_name": "parking_track",
+            "libflow_port": 24012
+          }
+        },
+        {
+          "name": "planning",
+          "files": [
+            "planning.data.json"
+          ],
+          "options": {
+            "enable_libflow": true,
+            "libflow_name": "planning",
+            "libflow_port": 24012
+          }
+        },
+        {
+          "name": "planning_to_hmi",
+          "files": [
+            "planning_to_hmi.data.json"
+          ],
+          "options": {
+            "enable_libflow": true,
+            "libflow_name": "planning_to_hmi",
+            "libflow_port": 24012
+          }
+        },
+        {
+          "name": "vehicle_control",
+          "files": [
+            "vehicle_control.data.json"
+          ],
+          "options": {
+            "enable_libflow": true,
+            "libflow_name": "vehicle_control",
+            "libflow_port": 24012
+          }
+        },
+        {
+          "name": "hmi_to_soc_havp",
+          "files": [
+            "hmi_to_soc_havp.data.json"
+          ],
+          "options": {
+            "enable_libflow": true,
+            "libflow_name": "hmi_to_soc_havp",
+            "libflow_port": 24012
+          }
+        },
+        {
+          "name": "hmi_to_soc",
+          "files": [
+            "hmi_to_soc.data.json"
+          ],
+          "options": {
+            "enable_libflow": true,
+            "libflow_name": "hmi_to_soc",
+            "libflow_port": 24012
+          }
+        },
+        {
+          "name": "ihu_to_soc",
+          "files": [
+            "ihu_to_soc.data.json"
+          ],
+          "options": {
+            "enable_libflow": true,
+            "libflow_name": "ihu_to_soc",
+            "libflow_port": 24012
+          }
+        },
+        {
+          "name": "avm_settings",
+          "files": [
+            "avm_settings.data.json"
+          ],
+          "options": {
+            "enable_libflow": true,
+            "libflow_name": "avm_settings",
+            "libflow_port": 24012
+          }
+        },
+        {
+          "name": "soc_to_ihu",
+          "files": [
+            "soc_to_ihu.data.json"
+          ],
+          "options": {
+            "enable_libflow": true,
+            "libflow_name": "soc_to_ihu",
+            "libflow_port": 24012
+          }
+        },
+        {
+          "name": "vtr",
+          "files": [
+            "vtr.data.json"
+          ],
+          "options": {
+            "enable_libflow": true,
+            "libflow_name": "vtr",
+            "libflow_port": 24012
+          }
+        },
+        {
+          "name": "odometry_3d_gt",
+          "files": [
+            "odometry_3d_gt.data.json"
+          ],
+          "options": {
+            "enable_libflow": true,
+            "libflow_name": "odometry_3d_gt",
+            "libflow_port": 24012
+          }
+        },
+        {
+          "name": "odometry_3d_lz",
+          "files": [
+            "odometry_3d_lz.data.json"
+          ],
+          "options": {
+            "enable_libflow": true,
+            "libflow_name": "odometry_3d_lz",
+            "libflow_port": 24012
+          }
+        },
+        {
+          "name": "parking_ins",
+          "files": [
+            "parking_ins.data.json"
+          ],
+          "options": {
+            "enable_libflow": true,
+            "libflow_name": "parking_ins",
+            "libflow_port": 24012
+          }
+        },
+        {
+          "name": "parking_gnss",
+          "files": [
+            "parking_gnss.data.json"
+          ],
+          "options": {
+            "enable_libflow": true,
+            "libflow_name": "parking_gnss",
+            "libflow_port": 24012
+          }
+        },
+        {
+          "name": "ihu_to_avm",
+          "files": [
+            "ihu_to_avm.data.json"
+          ],
+          "options": {
+            "enable_libflow": true,
+            "libflow_name": "ihu_to_avm",
+            "libflow_port": 24012
+          }
+        },
+        {
+          "name": "apa_hmi_signal",
+          "files": [
+            "apa_hmi_signal.data.json"
+          ],
+          "options": {
+            "enable_libflow": true,
+            "libflow_name": "apa_hmi_signal",
+            "libflow_port": 24012
+          }
+        },
+        {
+          "name": "apa_hmi_signal_res",
+          "files": [
+            "apa_hmi_signal_res.data.json"
+          ],
+          "options": {
+            "enable_libflow": true,
+            "libflow_name": "apa_hmi_signal_res",
+            "libflow_port": 24012
+          }
+        }
+      ]
+    }
+  ]
+}

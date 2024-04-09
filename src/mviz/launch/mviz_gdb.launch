@@ -1,0 +1,69 @@
+ <launch>
+  <arg name="conf_file" default="apa_hil_pc_config.json" />
+  <arg name="car_conf" default="x50_body.yaml" />
+  <arg name="save_mviz_data" default="false"/>
+  <arg name="mviz_mode" default="oncar"/>
+  <arg name="rviz_name" default="mviz_collect.rviz"/>
+
+  <param name="version" value="1.0.1"/>
+  <param name="email" value="xuruilong@minieye.cc"/>
+  <arg name="config_dir" default="$(find mviz)/config/$(arg conf_file)" />
+  <arg name="car_body_dir" default="$(find mviz)/config/$(arg car_conf)" />
+
+
+  <arg name="marker_scale" default="0.02"/>
+  <arg name="marker_radio" default="1"/>
+  <arg name="ros_rate" default="25"/>
+  <arg name="use_hardware_decode" default="true"/>
+  <arg name="use_tick" default="true"/>
+  <arg name="cache_tick_dt_ms" default="2000"/>
+  <arg name="sync_tick_dt_ms" default="300"/>
+  <!-- 缓存图像，等算法结果，算法处理需要时间，回灌是尤其 -->
+  <arg name="number_image_cache" default="30"/>
+  <!-- car model size -->
+  <arg name="car_model_size" default="1.0"/>
+  <!-- < img position:id /> -->
+  <!-- <  1 | 3 /> -->
+  <!-- <  2 | 4 /> -->
+  <arg name="image_front_position" default="2"/>
+  <arg name="image_rear_position" default="4"/>
+  <arg name="image_left_position" default="1"/>
+  <arg name="image_right_position" default="3"/>
+
+  <arg name="show_wait_time" default="300"/>
+  <arg name="odometry_type" default="3D"/>
+  <arg name="save_mviz_data_path" default="/root/mviz2_ros/mviz_data"/>
+  <arg name="log_level" default="DEBUG"/>
+  <arg name="show_uss_parkingspace" default="true"/>
+
+
+  <node pkg="mviz" type="mviz_node" name="mviz_publisher" output="screen" launch-prefix="xterm -e gdb -ex run --args"/>
+    <param name="config_dir" value="$(arg config_dir)" />
+    <param name="car_body_dir" value="$(arg car_body_dir)" />
+    <param name="marker_scale" value="$(arg marker_scale)" />
+    <param name="marker_radio" value="$(arg marker_radio)" />
+
+    <param name="ros_rate" value="$(arg ros_rate)" />
+    <param name="use_hardware_decode" value="$(arg use_hardware_decode)"/>
+    <param name="use_tick" value="$(arg use_tick)"/>
+    <param name="number_image_cache" value="$(arg number_image_cache)"/>
+    <param name="car_model_size" value="$(arg car_model_size)"/>
+
+    <param name="image_front_position" value="$(arg image_front_position)"/>
+    <param name="image_rear_position" value="$(arg image_rear_position)"/>
+    <param name="image_left_position" value="$(arg image_left_position)"/>
+    <param name="image_right_position" value="$(arg image_right_position)"/>
+    
+    <param name="odometry_type" value="$(arg odometry_type)"/>
+    <param name="log_level" value="$(arg log_level)"/>
+    <param name="show_wait_time" value="$(arg show_wait_time)"/>
+    <param name="save_mviz_data" value="$(arg save_mviz_data)"/>
+    <param name="save_mviz_data_path" value="$(arg save_mviz_data_path)"/>
+    <param name="show_uss_parkingspace" value="$(arg show_uss_parkingspace)"/>
+    <param name="mviz_mode" value="$(arg mviz_mode)"/>
+    <param name="cache_tick_dt_ms" value="$(arg cache_tick_dt_ms)"/>
+    <param name="sync_tick_dt_ms" value="$(arg sync_tick_dt_ms)"/>
+
+
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find mviz)/config/$(arg rviz_name)" required="true" />
+</launch>

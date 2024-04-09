@@ -1,0 +1,13 @@
+    float32 short_radar_fl   
+    float32 short_radar_flm
+    float32 short_radar_frm    
+    float32 short_radar_fr    
+    float32 short_radar_bl    
+    float32 short_radar_blm   
+    float32 short_radar_brm   
+    float32 short_radar_br    
+    float32 long_radar_fl    
+    float32 long_radar_fr    
+    float32 long_radar_bl    
+    float32 long_radar_br         
+    uint64 tick           

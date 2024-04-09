@@ -1,0 +1,1 @@
+SignalTypeEnum signaltype

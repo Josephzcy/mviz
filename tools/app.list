@@ -1,0 +1,126 @@
+{
+  "apps": [
+    {
+      "name": "lane-main"
+    },
+    {
+      "name": "object_perception"
+    },
+    {
+      "name": "fusion"
+    },
+    {
+      "name": "dnp"
+    },
+    {
+      "name": "canout"
+    },
+    {
+      "name": "chassis"
+    },
+    {
+      "name": "avm-parking"
+    },
+    {
+      "name": "private_canout"
+    },
+    {
+      "name": "stitching"
+    },
+    {
+      "name": "perception"
+    },
+    {
+      "name": "strategy"
+    },
+    {
+      "name": "lam"
+    },
+    {
+      "name": "vehicle_control"
+    },
+    {
+      "name": "planning"
+    },
+    {
+      "name": "spm"
+    },
+    {
+      "name": "usdm"
+    },
+    {
+      "name": "euim"
+    },
+    {
+      "name": "diagnostic"
+    },
+    {
+      "name": "run_dds_flow"
+    },
+    {
+      "name": "odo_vehiclesignal"
+    },
+    {
+      "name": "avm-manager"
+    },
+
+    {
+      "name": "apa_localization"
+    },
+    {
+      "name": "apa_manager"
+    },
+    {
+      "name": "apa_planning"
+    },
+    {
+      "name": "bird_eye_view"
+    },
+    {
+      "name": "dfg_avm_calib"
+    },
+    {
+      "name": "havp_inference"
+    },
+    {
+      "name": "havp_parkingspace_postprocess"
+    },
+    {
+      "name": "vehicle_control_dds"
+    },
+    {
+      "name": "odom_calibration"
+    },
+    {
+      "name": "sensor_fusion"
+    },
+    {
+      "name": "mod"
+    },
+    {
+      "name": "apa_ultrasonic_parkingspace"
+    },
+    {
+      "name": "vtr"
+    },
+
+    {
+      "name": "hmiproxy"
+    },
+    {
+      "name": "dds_to_flow"
+    },
+    {
+      "name": "app_camera_encode_libflow.out"
+    },
+    {
+      "name": "bev_libflow.out"
+    },
+    {
+      "name": "avm_libflow.out"
+    },
+    {
+      "name": "avm_calibration"
+    }
+  ]
+}

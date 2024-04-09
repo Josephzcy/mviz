@@ -1,0 +1,10 @@
+float32 x
+float32 y
+float32 z
+float32 theta
+float32 s
+float32 kappa
+float32 dkappa
+float32 ddkappa
+float32 x_derivative
+float32 y_derivative

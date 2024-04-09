@@ -1,0 +1,1 @@
+LineTypeEnum type

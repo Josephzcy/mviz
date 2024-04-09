@@ -1,0 +1,3 @@
+string ap_response
+float32 localization_accuracy
+string fail_reason

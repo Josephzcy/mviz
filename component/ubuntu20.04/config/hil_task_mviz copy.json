@@ -1,0 +1,89 @@
+{
+  "version": "l2",
+  "#created_at": "2022-11-03_0658",
+  "#使用说明:": "以#前缀的字段都是用来注释的，方便人阅读理解相关功能。可忽略或删除。",
+  "default_options": {
+    "enable_libflow": true,
+    "enable_nanomsg": true
+  },
+  "tasks": [
+    {
+      "name": "task_t1q-1",
+      "repeat": 1,
+      "detect_flag": "task-t1q.flag",
+      "#source": "/home/wingboy/MyData/replay/apa_vm/20231121111642/",
+      "source": "/home/wingboy/MyData/replay/x50/20240221154030/",
+      "#start_tm": 1658999265875000,
+      "#end_tm": 1658999295875000,
+      "g_order_key": "tick",
+      "datas": [
+        {
+          "name": "camera30",
+          "files": [
+            "camera_stitching.data.json"
+          ],
+          "options": {
+            "enable_libflow": true,
+            "libflow_name": "camera30",
+            "libflow_port": 24011
+          }
+        },
+        {
+          "name": "vehicle_signal",
+          "files": [
+            "vehicle_signal.data.json"
+          ],
+          "options": {
+            "enable_libflow": true,
+            "libflow_name": "vehicle_signal",
+            "libflow_port": 24012
+          }
+        },
+        {
+          "name": "odo_vehicle_signal",
+          "files": [
+            "odo_vehicle_signal.data.json"
+          ],
+          "options": {
+            "enable_libflow": true,
+            "libflow_name": "odo_vehicle_signal",
+            "libflow_port": 24012
+          }
+        },
+        {
+          "name": "imu",
+          "files": [
+            "imu.data.json"
+          ],
+          "options": {
+            "enable_libflow": true,
+            "libflow_name": "imu",
+            "libflow_port": 24012
+          }
+        },
+        {
+          "name": "uss",
+          "files": [
+            "uss.data.json"
+          ],
+          "options": {
+            "enable_libflow": true,
+            "libflow_name": "uss",
+            "libflow_port": 24012
+          }
+        },
+        {
+          "name": "apa_state_control",
+          "files": [
+            "apa_state_control.data.json"
+          ],
+          "options": {
+            "enable_libflow": true,
+            "libflow_name": "apa_state_control",
+            "libflow_port": 24012
+          }
+        }
+      ]
+    }
+  ]
+}

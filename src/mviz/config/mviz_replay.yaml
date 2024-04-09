@@ -1,0 +1,176 @@
+  
+reader_manager_config:
+  #mviz_data_path: "/home/wss/workspace/mviz_data/20231027101117/"
+  # mviz_data_path: /home/nico/minieye/mviz/mviz2_ros/mviz_data_src/20230912122311_mv1/ 
+  mviz_data_path: /root/mviz2_ros/mviz_data/20240221154030/ 
+  key_topic: "camera_stitching" # 只
+  sync_dt_threshold_ms: 100
+  video_codecs_type: "H264" # H264;H265
+  topic_configs:
+    camera_stitching:
+      topic: "camera_stitching"
+      data_json_path: "camera_stitching.data.json"
+      sync_by: "tick" #设置用哪个时间戳与key_topic判断为同一帧
+    bev_libflow:
+      topic: "bev_libflow"
+      data_json_path: "bev_libflow.data.json" 
+      sync_by: "tick"
+
+    apa_gnss:
+      topic: "apa_gnss"
+      data_json_path: "apa_gnss.data.json"
+      sync_by: "tick"
+
+    apa_state_control:
+      topic: "apa_state_control"
+      data_json_path: "apa_state_control.data.json"
+      sync_by: "tick"
+
+    apa_vehicle_signal:
+      topic: "apa_vehicle_signal"
+      data_json_path: "apa_vehicle_signal.data.json"
+      sync_by: "tick"
+    
+    avm_settings:
+      topic: "avm_settings"
+      data_json_path: "avm_settings.data.json"
+      sync_by: "tick"
+
+    freespace:
+      topic: "freespace"
+      data_json_path: "freespace.data.json"
+      sync_by: "tick"
+
+    gridmap:
+      topic: "gridmap"
+      data_json_path: "gridmap.data.json"
+      sync_by: "tick"
+
+    hmi_to_soc_havp:
+      topic: "hmi_to_soc_havp"
+      data_json_path: "hmi_to_soc_havp.data.json"
+      sync_by: "tick"
+
+    ihu_to_soc:
+      topic: "ihu_to_soc"
+      data_json_path: "ihu_to_soc.data.json"
+      sync_by: "tick"
+
+    imu:
+      topic: "imu"
+      data_json_path: "imu.data.json"
+      sync_by: "tick"
+    
+    odo_vehicle_signal:
+      topic: "odo_vehicle_signal"
+      data_json_path: "odo_vehicle_signal.data.json"
+      sync_by: "tick"
+
+    odometry_3d:
+      topic: "odometry_3d"
+      data_json_path: "odometry_3d.data.json"
+      sync_by: "tick"
+
+    odometry_3d_gt:
+      topic: "odometry_3d_gt"
+      data_json_path: "odometry_3d_gt.data.json"
+      sync_by: "tick"
+    odometry_3d_lz:
+      topic: "odometry_3d_lz"
+      data_json_path: "odometry_3d_lz.data.json"
+      sync_by: "tick"
+
+    parking_ins:
+      topic: "parking_ins"
+      data_json_path: "parking_ins.data.json"
+      sync_by: "tick"
+    parking_gnss:
+      topic: "parking_gnss"
+      data_json_path: "parking_gnss.data.json"
+      sync_by: "tick"
+
+    parkingspace:
+      topic: "parkingspace"
+      data_json_path: "parkingspace.data.json"
+      sync_by: "tick"
+    parkingspace_to_ui:
+      topic: "parkingspace_to_ui"
+      data_json_path: "parkingspace_to_ui.data.json"
+      sync_by: "tick"
+
+    planning:
+      topic: "planning"
+      data_json_path: "planning.data.json"
+      sync_by: "tick"
+
+    raw_ins_ps:
+      topic: "raw_ins_ps"
+      data_json_path: "raw_ins_ps.data.json"
+      sync_by: "tick"
+
+    soc_to_ihu:
+      topic: "soc_to_ihu"
+      data_json_path: "soc_to_ihu.data.json"
+      sync_by: "tick"
+
+    uss:
+      topic: "uss"
+      data_json_path: "uss.data.json"
+      sync_by: "tick"
+
+    uss_parkingspace:
+      topic: "uss_parkingspace"
+      data_json_path: "uss_parkingspace.data.json"
+      sync_by: "tick"
+
+    vehicle_control:
+      topic: "vehicle_control"
+      data_json_path: "vehicle_control.data.json"
+      sync_by: "tick"
+
+    vehicle_signal:
+      topic: "vehicle_signal"
+      data_json_path: "vehicle_signal.data.json"
+      sync_by: "tick"
+    vis_parkingspace:
+      topic: "vis_parkingspace"
+      data_json_path: "vis_parkingspace.data.json"
+      sync_by: "tick"
+    vis_parkingspace_to_ui:
+      topic: "vis_parkingspace_to_ui"
+      data_json_path: "vis_parkingspace_to_ui.data.json"
+      sync_by: "tick"
+    vtr:
+      topic: "vtr"
+      data_json_path: "vtr.data.json"
+      sync_by: "tick"
+
+camera_stitching_config:
+  image_front_position: 2
+  image_rear_position: 4
+  image_left_position: 1
+  image_right_position: 3
+
+pub_manager_config:
+  # car_body_dir: "/home/nico/minieye/mviz/mviz2_ros/src/mviz/config/x50_body.yaml"
+  car_body_dir: "/root/mviz2_ros/src/mviz/config/x50_body.yaml"
+  #car_body_dir: "/home/wss/workspace/mviz2_ros/src/mviz/config/x50_body.yaml"
+  marker_radio: 1.0
+  marker_scale: 0.02
+  pub_camera_configs:
+    camera_stitching:
+      topic: "camera_stitching"
+      camera_number: 4
+      # 1 | 3
+      # 2 | 4
+      camera_position: [2,4,1,3] # front_rear_left_right
+    bev_libflow:
+      topic: "bev_libflow"
+      camera_number: 1
+      camera_position: [1]
+
+
+  
+
+
+

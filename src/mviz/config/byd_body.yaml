@@ -1,0 +1,13 @@
+"vehicle_plaform": "byd"
+"length": 4.980
+"width": 1.910
+"height": 1.495
+"wheel_base": 2.92
+"front_wheel_distance": 1.64
+"rear_wheel_distance": 1.64
+"front_suspension_length": 1.060
+"rear_suspension_length": 1.0
+"safety_d" : 0.3   # 30cm
+"step_x": 7
+"step_y": 3
+

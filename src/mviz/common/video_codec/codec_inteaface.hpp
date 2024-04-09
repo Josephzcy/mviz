@@ -1,0 +1,3 @@
+#ifndef CODEC_INTERFACE_HPP_
+#define CODEC_INTERFACE_HPP_
+#endif

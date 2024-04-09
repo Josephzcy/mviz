@@ -1,0 +1,97 @@
+{
+  "log_level": 1,
+  "topics": [
+    {
+      "topic": "vehicle_signal",
+      "dds_mode": "shm",
+      "buff_num": 100,
+      "elem_max_size": 1000
+    },
+    {
+      "topic": "odo_vehicle_signal",
+      "dds_mode": "shm",
+      "buff_num": 100,
+      "elem_max_size": 1000
+    },
+    {
+      "topic": "apa_vehicle_signal",
+      "dds_mode": "shm",
+      "buff_num": 100,
+      "elem_max_size": 1000
+    },
+    {
+      "topic": "imu",
+      "dds_mode": "shm",
+      "buff_num": 100,
+      "elem_max_size": 1000
+    },
+    {
+      "topic": "imu_correct_data",
+      "dds_mode": "shm",
+      "buff_num": 10,
+      "elem_max_size": 1000
+    },
+    {
+      "topic": "imu_rtk",
+      "dds_mode": "shm",
+      "buff_num": 10,
+      "elem_max_size": 1000
+    },
+    {
+      "topic": "apa_gnss",
+      "dds_mode": "shm",
+      "buff_num": 100,
+      "elem_max_size": 1000
+    },
+    {
+      "topic": "uss",
+      "dds_mode": "shm",
+      "buff_num": 20,
+      "elem_max_size": 256
+    },
+    {
+      "topic": "hmi_to_soc",
+      "dds_mode": "shm",
+      "buff_num": 20,
+      "elem_max_size": 1024
+    },
+    {
+      "topic": "ihu_to_soc",
+      "dds_mode": "shm",
+      "buff_num": 20,
+      "elem_max_size": 1024
+    },
+    {
+      "topic": "soc_to_ihu",
+      "dds_mode": "shm",
+      "buff_num": 20,
+      "elem_max_size": 1024
+    },
+    {
+      "topic": "odometry_3d_gt",
+      "dds_mode": "shm",
+      "buff_num": 10,
+      "elem_max_size": 8000
+    },
+    {
+      "topic": "odometry_3d_lz",
+      "dds_mode": "shm",
+      "buff_num": 10,
+      "elem_max_size": 8000
+    },
+    {
+      "topic": "parking_ins",
+      "dds_mode": "shm",
+      "buff_num": 10,
+      "elem_max_size": 1000
+    },
+    {
+      "topic": "parking_gnss",
+      "dds_mode": "shm",
+      "buff_num": 10,
+      "elem_max_size": 1000
+    }
+  ],
+  "flow_addr": "192.168.98.233",
+  "flow_port": 24012
+}

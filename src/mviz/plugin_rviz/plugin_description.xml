@@ -1,0 +1,59 @@
+<library path="lib/librviz_interactive_gui">
+  <class name="mviz_apa/rviz_interactive_gui"
+         type="mviz_apa::CarBodyStatusGui"
+         base_class_type="rviz::Panel">
+    <description>
+      A panel widget display apa state
+    </description>
+  </class>
+</library>
+
+<library path="lib/librviz_car_state_gui">
+  <class name="mviz_apa/rviz_car_state_gui"
+         type="mviz_apa::CarStateGui"
+         base_class_type="rviz::Panel">
+    <description>
+      A panel widget display car body state
+    </description>
+  </class>
+</library>
+
+<library path="lib/librviz_record_bag_gui">
+  <class name="mviz_apa/rviz_record_bag_gui"
+         type="mviz_apa::RecordBagGui"
+         base_class_type="rviz::Panel">
+    <description>
+      A panel widget for rviz conmand button
+    </description>
+  </class>
+</library>
+
+<library path="lib/librviz_uss_radar_gui">
+  <class name="mviz_apa/rviz_uss_radar_gui"
+         type="mviz_apa::UssRadarGui"
+         base_class_type="rviz::Panel">
+    <description>
+      A panel widget for rviz uss radar
+    </description>
+  </class>
+</library>
+
+<library path="lib/librviz_replay_gui">
+  <class name="mviz_replay/rviz_replay_gui"
+         type="mviz_replay::ReplayGui"
+         base_class_type="rviz::Panel">
+    <description>
+      A panel widget for rviz replay
+    </description>
+  </class>
+</library>
+
+<library path="lib/libmviz_tool_box">
+  <class name="mviz_replay/mviz_tool_box"
+         type="mviz_replay::MvizToolBox"
+         base_class_type="rviz::Panel">
+    <description>
+      A panel widget for rviz replay tool
+    </description>
+  </class>
+</library>

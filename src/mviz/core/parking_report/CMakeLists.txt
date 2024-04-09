@@ -1,0 +1,17 @@
+SET(MODULE_NAME parking_report)
+
+SET(MODULE_HOME_PATH ${MVIZ_HOME}/core/parking_report)
+INCLUDE_DIRECTORIES(
+  ${MODULE_HOME_PATH}
+)
+LINK_DIRECTORIES()
+
+
+aux_source_directory(${MODULE_HOME_PATH} SRC_LISTS)
+
+
+
+SET(ENABLE_TEST OFF)
+IF(ENABLE_TEST)
+add_subdirectory(test)
+ENDIF()

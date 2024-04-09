@@ -1,0 +1,1 @@
+ParkSlotTypeEnum type

@@ -1,0 +1,687 @@
+load_recv Jan 23 2024 20:03:52
+1706163273.456021
+========= sysinfo gtc:0 utc:1676358829537417 =========
+usr:1 sys:1 idle:97 nic:0 io:0 irq:0 sirq:0 timestamp:1676358829537417
+           lane-main pid: 1941 cpu:0.00 mem:44608
+   object_perception pid: 1945 cpu:0.00 mem:49344
+              fusion pid: 1935 cpu:0.00 mem:86400
+                 dnp pid: 1937 cpu:0.00 mem:32512
+              canout pid:    0 cpu:0.00 mem:0
+             chassis pid:    0 cpu:0.00 mem:0
+         avm-parking pid:    0 cpu:0.00 mem:0
+      private_canout pid:    0 cpu:0.00 mem:0
+           stitching pid:    0 cpu:0.00 mem:0
+          perception pid:    0 cpu:0.00 mem:0
+            strategy pid:    0 cpu:0.00 mem:0
+                 lam pid:    0 cpu:0.00 mem:0
+     vehicle_control pid: 2106 cpu:0.00 mem:16320
+            planning pid:    0 cpu:0.00 mem:0
+                 spm pid:    0 cpu:0.00 mem:0
+                usdm pid:    0 cpu:0.00 mem:0
+                euim pid:    0 cpu:0.00 mem:0
+          diagnostic pid:    0 cpu:0.00 mem:0
+        run_dds_flow pid:    0 cpu:0.00 mem:0
+   odo_vehiclesignal pid:    0 cpu:0.00 mem:0
+    apa_localization pid: 2084 cpu:0.00 mem:16000
+         apa_manager pid:    0 cpu:0.00 mem:0
+        apa_planning pid: 2114 cpu:0.00 mem:20544
+       bird_eye_view pid: 2087 cpu:0.00 mem:36416
+       dfg_avm_calib pid:    0 cpu:0.00 mem:0
+      havp_inference pid: 2096 cpu:0.00 mem:39680
+havp_parkingspace_postprocess pid: 2101 cpu:0.00 mem:76288
+ vehicle_control_dds pid: 2106 cpu:0.00 mem:16320
+wheel_radius_calibration pid:    0 cpu:0.00 mem:0
+            hmiproxy pid:    0 cpu:0.00 mem:0
+         dds_to_flow pid:    0 cpu:0.00 mem:0
+app_camera_encode_libflow.out pid:24149 cpu:0.00 mem:7936
+     bev_libflow.out pid:24168 cpu:0.00 mem:8192
+   avm_calib_service pid: 1498 cpu:0.00 mem:25152
+
+========= sysinfo gtc:0 utc:1676358830538944 =========
+usr:0 sys:1 idle:96 nic:0 io:0 irq:0 sirq:0 timestamp:1676358830538944
+           lane-main pid: 1941 cpu:0.00 mem:44608
+   object_perception pid: 1945 cpu:0.00 mem:49344
+              fusion pid: 1935 cpu:0.00 mem:86400
+                 dnp pid: 1937 cpu:0.00 mem:32512
+              canout pid:    0 cpu:0.00 mem:0
+             chassis pid:    0 cpu:0.00 mem:0
+         avm-parking pid:    0 cpu:0.00 mem:0
+      private_canout pid:    0 cpu:0.00 mem:0
+           stitching pid:    0 cpu:0.00 mem:0
+          perception pid:    0 cpu:0.00 mem:0
+            strategy pid:    0 cpu:0.00 mem:0
+                 lam pid:    0 cpu:0.00 mem:0
+     vehicle_control pid: 2106 cpu:0.00 mem:16320
+            planning pid:    0 cpu:0.00 mem:0
+                 spm pid:    0 cpu:0.00 mem:0
+                usdm pid:    0 cpu:0.00 mem:0
+                euim pid:    0 cpu:0.00 mem:0
+          diagnostic pid:    0 cpu:0.00 mem:0
+        run_dds_flow pid:    0 cpu:0.00 mem:0
+   odo_vehiclesignal pid:    0 cpu:0.00 mem:0
+    apa_localization pid: 2084 cpu:0.00 mem:16000
+         apa_manager pid:    0 cpu:0.00 mem:0
+        apa_planning pid: 2114 cpu:0.00 mem:20544
+       bird_eye_view pid: 2087 cpu:0.00 mem:36416
+       dfg_avm_calib pid:    0 cpu:0.00 mem:0
+      havp_inference pid: 2096 cpu:0.00 mem:39680
+havp_parkingspace_postprocess pid: 2101 cpu:0.00 mem:76288
+ vehicle_control_dds pid: 2106 cpu:0.00 mem:16320
+wheel_radius_calibration pid:    0 cpu:0.00 mem:0
+            hmiproxy pid:    0 cpu:0.00 mem:0
+         dds_to_flow pid:    0 cpu:0.00 mem:0
+app_camera_encode_libflow.out pid:24149 cpu:0.00 mem:7936
+     bev_libflow.out pid:24168 cpu:0.00 mem:8192
+   avm_calib_service pid: 1498 cpu:0.00 mem:25152
+
+========= sysinfo gtc:0 utc:1676358831540525 =========
+usr:1 sys:1 idle:95 nic:0 io:0 irq:1 sirq:0 timestamp:1676358831540525
+           lane-main pid: 1941 cpu:0.00 mem:44608
+   object_perception pid: 1945 cpu:0.00 mem:49344
+              fusion pid: 1935 cpu:0.00 mem:86400
+                 dnp pid: 1937 cpu:0.00 mem:32512
+              canout pid:    0 cpu:0.00 mem:0
+             chassis pid:    0 cpu:0.00 mem:0
+         avm-parking pid:    0 cpu:0.00 mem:0
+      private_canout pid:    0 cpu:0.00 mem:0
+           stitching pid:    0 cpu:0.00 mem:0
+          perception pid:    0 cpu:0.00 mem:0
+            strategy pid:    0 cpu:0.00 mem:0
+                 lam pid:    0 cpu:0.00 mem:0
+     vehicle_control pid: 2106 cpu:0.00 mem:16320
+            planning pid:    0 cpu:0.00 mem:0
+                 spm pid:    0 cpu:0.00 mem:0
+                usdm pid:    0 cpu:0.00 mem:0
+                euim pid:    0 cpu:0.00 mem:0
+          diagnostic pid:    0 cpu:0.00 mem:0
+        run_dds_flow pid:    0 cpu:0.00 mem:0
+   odo_vehiclesignal pid:    0 cpu:0.00 mem:0
+    apa_localization pid: 2084 cpu:0.00 mem:16000
+         apa_manager pid:    0 cpu:0.00 mem:0
+        apa_planning pid: 2114 cpu:0.00 mem:20544
+       bird_eye_view pid: 2087 cpu:0.00 mem:36416
+       dfg_avm_calib pid:    0 cpu:0.00 mem:0
+      havp_inference pid: 2096 cpu:0.00 mem:39680
+havp_parkingspace_postprocess pid: 2101 cpu:0.00 mem:76288
+ vehicle_control_dds pid: 2106 cpu:0.00 mem:16320
+wheel_radius_calibration pid:    0 cpu:0.00 mem:0
+            hmiproxy pid:    0 cpu:0.00 mem:0
+         dds_to_flow pid:    0 cpu:0.00 mem:0
+app_camera_encode_libflow.out pid:24149 cpu:0.00 mem:7936
+     bev_libflow.out pid:24168 cpu:0.00 mem:8192
+   avm_calib_service pid: 1498 cpu:0.00 mem:25152
+
+========= sysinfo gtc:0 utc:1676358832542204 =========
+usr:1 sys:2 idle:96 nic:0 io:0 irq:0 sirq:0 timestamp:1676358832542204
+           lane-main pid: 1941 cpu:0.00 mem:44608
+   object_perception pid: 1945 cpu:0.00 mem:49344
+              fusion pid: 1935 cpu:0.00 mem:86400
+                 dnp pid: 1937 cpu:0.00 mem:32512
+              canout pid:    0 cpu:0.00 mem:0
+             chassis pid:    0 cpu:0.00 mem:0
+         avm-parking pid:    0 cpu:0.00 mem:0
+      private_canout pid:    0 cpu:0.00 mem:0
+           stitching pid:    0 cpu:0.00 mem:0
+          perception pid:    0 cpu:0.00 mem:0
+            strategy pid:    0 cpu:0.00 mem:0
+                 lam pid:    0 cpu:0.00 mem:0
+     vehicle_control pid: 2106 cpu:0.00 mem:16320
+            planning pid:    0 cpu:0.00 mem:0
+                 spm pid:    0 cpu:0.00 mem:0
+                usdm pid:    0 cpu:0.00 mem:0
+                euim pid:    0 cpu:0.00 mem:0
+          diagnostic pid:    0 cpu:0.00 mem:0
+        run_dds_flow pid:    0 cpu:0.00 mem:0
+   odo_vehiclesignal pid:    0 cpu:0.00 mem:0
+    apa_localization pid: 2084 cpu:0.00 mem:16000
+         apa_manager pid:    0 cpu:0.00 mem:0
+        apa_planning pid: 2114 cpu:0.00 mem:20544
+       bird_eye_view pid: 2087 cpu:0.00 mem:36416
+       dfg_avm_calib pid:    0 cpu:0.00 mem:0
+      havp_inference pid: 2096 cpu:0.00 mem:39680
+havp_parkingspace_postprocess pid: 2101 cpu:0.00 mem:76288
+ vehicle_control_dds pid: 2106 cpu:0.00 mem:16320
+wheel_radius_calibration pid:    0 cpu:0.00 mem:0
+            hmiproxy pid:    0 cpu:0.00 mem:0
+         dds_to_flow pid:    0 cpu:0.00 mem:0
+app_camera_encode_libflow.out pid:24149 cpu:0.00 mem:7936
+     bev_libflow.out pid:24168 cpu:0.00 mem:8192
+   avm_calib_service pid: 1498 cpu:0.00 mem:25152
+
+========= sysinfo gtc:0 utc:1676358833543749 =========
+usr:2 sys:1 idle:95 nic:0 io:0 irq:0 sirq:0 timestamp:1676358833543749
+           lane-main pid: 1941 cpu:0.00 mem:44608
+   object_perception pid: 1945 cpu:0.00 mem:49344
+              fusion pid: 1935 cpu:0.00 mem:86400
+                 dnp pid: 1937 cpu:0.00 mem:32512
+              canout pid:    0 cpu:0.00 mem:0
+             chassis pid:    0 cpu:0.00 mem:0
+         avm-parking pid:    0 cpu:0.00 mem:0
+      private_canout pid:    0 cpu:0.00 mem:0
+           stitching pid:    0 cpu:0.00 mem:0
+          perception pid:    0 cpu:0.00 mem:0
+            strategy pid:    0 cpu:0.00 mem:0
+                 lam pid:    0 cpu:0.00 mem:0
+     vehicle_control pid: 2106 cpu:0.00 mem:16320
+            planning pid:    0 cpu:0.00 mem:0
+                 spm pid:    0 cpu:0.00 mem:0
+                usdm pid:    0 cpu:0.00 mem:0
+                euim pid:    0 cpu:0.00 mem:0
+          diagnostic pid:    0 cpu:0.00 mem:0
+        run_dds_flow pid:    0 cpu:0.00 mem:0
+   odo_vehiclesignal pid:    0 cpu:0.00 mem:0
+    apa_localization pid: 2084 cpu:0.00 mem:16000
+         apa_manager pid:    0 cpu:0.00 mem:0
+        apa_planning pid: 2114 cpu:0.00 mem:20544
+       bird_eye_view pid: 2087 cpu:0.00 mem:36416
+       dfg_avm_calib pid:    0 cpu:0.00 mem:0
+      havp_inference pid: 2096 cpu:0.00 mem:39680
+havp_parkingspace_postprocess pid: 2101 cpu:0.00 mem:76288
+ vehicle_control_dds pid: 2106 cpu:0.00 mem:16320
+wheel_radius_calibration pid:    0 cpu:0.00 mem:0
+            hmiproxy pid:    0 cpu:0.00 mem:0
+         dds_to_flow pid:    0 cpu:0.00 mem:0
+app_camera_encode_libflow.out pid:24149 cpu:0.00 mem:7936
+     bev_libflow.out pid:24168 cpu:0.00 mem:8192
+   avm_calib_service pid: 1498 cpu:0.00 mem:25152
+
+========= sysinfo gtc:0 utc:1676358834545288 =========
+usr:2 sys:2 idle:95 nic:0 io:0 irq:0 sirq:0 timestamp:1676358834545288
+           lane-main pid: 1941 cpu:0.00 mem:44608
+   object_perception pid: 1945 cpu:0.00 mem:49344
+              fusion pid: 1935 cpu:0.00 mem:86400
+                 dnp pid: 1937 cpu:0.00 mem:32512
+              canout pid:    0 cpu:0.00 mem:0
+             chassis pid:    0 cpu:0.00 mem:0
+         avm-parking pid:    0 cpu:0.00 mem:0
+      private_canout pid:    0 cpu:0.00 mem:0
+           stitching pid:    0 cpu:0.00 mem:0
+          perception pid:    0 cpu:0.00 mem:0
+            strategy pid:    0 cpu:0.00 mem:0
+                 lam pid:    0 cpu:0.00 mem:0
+     vehicle_control pid: 2106 cpu:0.00 mem:16320
+            planning pid:    0 cpu:0.00 mem:0
+                 spm pid:    0 cpu:0.00 mem:0
+                usdm pid:    0 cpu:0.00 mem:0
+                euim pid:    0 cpu:0.00 mem:0
+          diagnostic pid:    0 cpu:0.00 mem:0
+        run_dds_flow pid:    0 cpu:0.00 mem:0
+   odo_vehiclesignal pid:    0 cpu:0.00 mem:0
+    apa_localization pid: 2084 cpu:0.00 mem:16000
+         apa_manager pid:    0 cpu:0.00 mem:0
+        apa_planning pid: 2114 cpu:0.00 mem:20544
+       bird_eye_view pid: 2087 cpu:0.00 mem:36416
+       dfg_avm_calib pid:    0 cpu:0.00 mem:0
+      havp_inference pid: 2096 cpu:0.00 mem:39680
+havp_parkingspace_postprocess pid: 2101 cpu:0.00 mem:76288
+ vehicle_control_dds pid: 2106 cpu:0.00 mem:16320
+wheel_radius_calibration pid:    0 cpu:0.00 mem:0
+            hmiproxy pid:    0 cpu:0.00 mem:0
+         dds_to_flow pid:    0 cpu:0.00 mem:0
+app_camera_encode_libflow.out pid:24149 cpu:0.00 mem:7936
+     bev_libflow.out pid:24168 cpu:0.00 mem:8192
+   avm_calib_service pid: 1498 cpu:0.00 mem:25152
+
+========= sysinfo gtc:0 utc:1676358835546910 =========
+usr:2 sys:1 idle:95 nic:0 io:0 irq:0 sirq:0 timestamp:1676358835546910
+           lane-main pid: 1941 cpu:0.00 mem:44608
+   object_perception pid: 1945 cpu:0.00 mem:49344
+              fusion pid: 1935 cpu:0.00 mem:86400
+                 dnp pid: 1937 cpu:0.00 mem:32512
+              canout pid:    0 cpu:0.00 mem:0
+             chassis pid:    0 cpu:0.00 mem:0
+         avm-parking pid:    0 cpu:0.00 mem:0
+      private_canout pid:    0 cpu:0.00 mem:0
+           stitching pid:    0 cpu:0.00 mem:0
+          perception pid:    0 cpu:0.00 mem:0
+            strategy pid:    0 cpu:0.00 mem:0
+                 lam pid:    0 cpu:0.00 mem:0
+     vehicle_control pid: 2106 cpu:0.00 mem:16320
+            planning pid:    0 cpu:0.00 mem:0
+                 spm pid:    0 cpu:0.00 mem:0
+                usdm pid:    0 cpu:0.00 mem:0
+                euim pid:    0 cpu:0.00 mem:0
+          diagnostic pid:    0 cpu:0.00 mem:0
+        run_dds_flow pid:    0 cpu:0.00 mem:0
+   odo_vehiclesignal pid:    0 cpu:0.00 mem:0
+    apa_localization pid: 2084 cpu:0.00 mem:16000
+         apa_manager pid:    0 cpu:0.00 mem:0
+        apa_planning pid: 2114 cpu:0.00 mem:20544
+       bird_eye_view pid: 2087 cpu:0.00 mem:36416
+       dfg_avm_calib pid:    0 cpu:0.00 mem:0
+      havp_inference pid: 2096 cpu:0.00 mem:39680
+havp_parkingspace_postprocess pid: 2101 cpu:0.00 mem:76288
+ vehicle_control_dds pid: 2106 cpu:0.00 mem:16320
+wheel_radius_calibration pid:    0 cpu:0.00 mem:0
+            hmiproxy pid:    0 cpu:0.00 mem:0
+         dds_to_flow pid:    0 cpu:0.00 mem:0
+app_camera_encode_libflow.out pid:24149 cpu:0.00 mem:7936
+     bev_libflow.out pid:24168 cpu:0.00 mem:8192
+   avm_calib_service pid: 1498 cpu:0.00 mem:25152
+
+========= sysinfo gtc:0 utc:1676358836548468 =========
+usr:1 sys:1 idle:95 nic:0 io:0 irq:1 sirq:0 timestamp:1676358836548468
+           lane-main pid: 1941 cpu:0.00 mem:44608
+   object_perception pid: 1945 cpu:0.00 mem:49344
+              fusion pid: 1935 cpu:0.00 mem:86400
+                 dnp pid: 1937 cpu:0.00 mem:32512
+              canout pid:    0 cpu:0.00 mem:0
+             chassis pid:    0 cpu:0.00 mem:0
+         avm-parking pid:    0 cpu:0.00 mem:0
+      private_canout pid:    0 cpu:0.00 mem:0
+           stitching pid:    0 cpu:0.00 mem:0
+          perception pid:    0 cpu:0.00 mem:0
+            strategy pid:    0 cpu:0.00 mem:0
+                 lam pid:    0 cpu:0.00 mem:0
+     vehicle_control pid: 2106 cpu:0.00 mem:16320
+            planning pid:    0 cpu:0.00 mem:0
+                 spm pid:    0 cpu:0.00 mem:0
+                usdm pid:    0 cpu:0.00 mem:0
+                euim pid:    0 cpu:0.00 mem:0
+          diagnostic pid:    0 cpu:0.00 mem:0
+        run_dds_flow pid:    0 cpu:0.00 mem:0
+   odo_vehiclesignal pid:    0 cpu:0.00 mem:0
+    apa_localization pid: 2084 cpu:0.00 mem:16000
+         apa_manager pid:    0 cpu:0.00 mem:0
+        apa_planning pid: 2114 cpu:0.00 mem:20544
+       bird_eye_view pid: 2087 cpu:0.00 mem:36416
+       dfg_avm_calib pid:    0 cpu:0.00 mem:0
+      havp_inference pid: 2096 cpu:0.00 mem:39680
+havp_parkingspace_postprocess pid: 2101 cpu:0.00 mem:76288
+ vehicle_control_dds pid: 2106 cpu:0.00 mem:16320
+wheel_radius_calibration pid:    0 cpu:0.00 mem:0
+            hmiproxy pid:    0 cpu:0.00 mem:0
+         dds_to_flow pid:    0 cpu:0.00 mem:0
+app_camera_encode_libflow.out pid:24149 cpu:0.00 mem:7936
+     bev_libflow.out pid:24168 cpu:0.00 mem:8192
+   avm_calib_service pid: 1498 cpu:0.00 mem:25152
+
+========= sysinfo gtc:0 utc:1676358837550135 =========
+usr:5 sys:9 idle:84 nic:0 io:0 irq:0 sirq:0 timestamp:1676358837550135
+           lane-main pid: 1941 cpu:0.00 mem:44608
+   object_perception pid: 1945 cpu:0.00 mem:49344
+              fusion pid: 1935 cpu:0.00 mem:86400
+                 dnp pid: 1937 cpu:0.00 mem:32512
+              canout pid:    0 cpu:0.00 mem:0
+             chassis pid:    0 cpu:0.00 mem:0
+         avm-parking pid:    0 cpu:0.00 mem:0
+      private_canout pid:    0 cpu:0.00 mem:0
+           stitching pid:    0 cpu:0.00 mem:0
+          perception pid:    0 cpu:0.00 mem:0
+            strategy pid:    0 cpu:0.00 mem:0
+                 lam pid:    0 cpu:0.00 mem:0
+     vehicle_control pid: 2106 cpu:0.00 mem:16320
+            planning pid:    0 cpu:0.00 mem:0
+                 spm pid:    0 cpu:0.00 mem:0
+                usdm pid:    0 cpu:0.00 mem:0
+                euim pid:    0 cpu:0.00 mem:0
+          diagnostic pid:    0 cpu:0.00 mem:0
+        run_dds_flow pid:    0 cpu:0.00 mem:0
+   odo_vehiclesignal pid:    0 cpu:0.00 mem:0
+    apa_localization pid: 2084 cpu:0.00 mem:16000
+         apa_manager pid:    0 cpu:0.00 mem:0
+        apa_planning pid: 2114 cpu:0.00 mem:20544
+       bird_eye_view pid: 2087 cpu:0.00 mem:36416
+       dfg_avm_calib pid:    0 cpu:0.00 mem:0
+      havp_inference pid: 2096 cpu:0.00 mem:39680
+havp_parkingspace_postprocess pid: 2101 cpu:0.00 mem:76288
+ vehicle_control_dds pid: 2106 cpu:0.00 mem:16320
+wheel_radius_calibration pid:    0 cpu:0.00 mem:0
+            hmiproxy pid:    0 cpu:0.00 mem:0
+         dds_to_flow pid:    0 cpu:0.00 mem:0
+app_camera_encode_libflow.out pid:24149 cpu:0.00 mem:7936
+     bev_libflow.out pid:24168 cpu:0.00 mem:8192
+   avm_calib_service pid: 1498 cpu:0.00 mem:25152
+
+========= sysinfo gtc:0 utc:1676358838551729 =========
+usr:1 sys:1 idle:96 nic:0 io:0 irq:0 sirq:0 timestamp:1676358838551729
+           lane-main pid: 1941 cpu:0.00 mem:44608
+   object_perception pid: 1945 cpu:0.00 mem:49344
+              fusion pid: 1935 cpu:0.00 mem:86400
+                 dnp pid: 1937 cpu:0.00 mem:32512
+              canout pid:    0 cpu:0.00 mem:0
+             chassis pid:    0 cpu:0.00 mem:0
+         avm-parking pid:    0 cpu:0.00 mem:0
+      private_canout pid:    0 cpu:0.00 mem:0
+           stitching pid:    0 cpu:0.00 mem:0
+          perception pid:    0 cpu:0.00 mem:0
+            strategy pid:    0 cpu:0.00 mem:0
+                 lam pid:    0 cpu:0.00 mem:0
+     vehicle_control pid: 2106 cpu:0.00 mem:16320
+            planning pid:    0 cpu:0.00 mem:0
+                 spm pid:    0 cpu:0.00 mem:0
+                usdm pid:    0 cpu:0.00 mem:0
+                euim pid:    0 cpu:0.00 mem:0
+          diagnostic pid:    0 cpu:0.00 mem:0
+        run_dds_flow pid:    0 cpu:0.00 mem:0
+   odo_vehiclesignal pid:    0 cpu:0.00 mem:0
+    apa_localization pid: 2084 cpu:0.00 mem:16000
+         apa_manager pid:    0 cpu:0.00 mem:0
+        apa_planning pid: 2114 cpu:0.00 mem:20544
+       bird_eye_view pid: 2087 cpu:0.00 mem:36416
+       dfg_avm_calib pid:    0 cpu:0.00 mem:0
+      havp_inference pid: 2096 cpu:0.00 mem:39680
+havp_parkingspace_postprocess pid: 2101 cpu:0.00 mem:76288
+ vehicle_control_dds pid: 2106 cpu:0.00 mem:16320
+wheel_radius_calibration pid:    0 cpu:0.00 mem:0
+            hmiproxy pid:    0 cpu:0.00 mem:0
+         dds_to_flow pid:    0 cpu:0.00 mem:0
+app_camera_encode_libflow.out pid:24149 cpu:0.00 mem:7936
+     bev_libflow.out pid:24168 cpu:0.00 mem:8192
+   avm_calib_service pid: 1498 cpu:0.00 mem:25152
+
+========= sysinfo gtc:0 utc:1676358839553378 =========
+usr:2 sys:1 idle:95 nic:0 io:0 irq:1 sirq:0 timestamp:1676358839553378
+           lane-main pid: 1941 cpu:0.00 mem:44608
+   object_perception pid: 1945 cpu:0.00 mem:49344
+              fusion pid: 1935 cpu:0.00 mem:86400
+                 dnp pid: 1937 cpu:0.00 mem:32512
+              canout pid:    0 cpu:0.00 mem:0
+             chassis pid:    0 cpu:0.00 mem:0
+         avm-parking pid:    0 cpu:0.00 mem:0
+      private_canout pid:    0 cpu:0.00 mem:0
+           stitching pid:    0 cpu:0.00 mem:0
+          perception pid:    0 cpu:0.00 mem:0
+            strategy pid:    0 cpu:0.00 mem:0
+                 lam pid:    0 cpu:0.00 mem:0
+     vehicle_control pid: 2106 cpu:0.00 mem:16320
+            planning pid:    0 cpu:0.00 mem:0
+                 spm pid:    0 cpu:0.00 mem:0
+                usdm pid:    0 cpu:0.00 mem:0
+                euim pid:    0 cpu:0.00 mem:0
+          diagnostic pid:    0 cpu:0.00 mem:0
+        run_dds_flow pid:    0 cpu:0.00 mem:0
+   odo_vehiclesignal pid:    0 cpu:0.00 mem:0
+    apa_localization pid: 2084 cpu:0.00 mem:16000
+         apa_manager pid:    0 cpu:0.00 mem:0
+        apa_planning pid: 2114 cpu:0.00 mem:20544
+       bird_eye_view pid: 2087 cpu:0.00 mem:36416
+       dfg_avm_calib pid:    0 cpu:0.00 mem:0
+      havp_inference pid: 2096 cpu:0.00 mem:39680
+havp_parkingspace_postprocess pid: 2101 cpu:0.00 mem:76288
+ vehicle_control_dds pid: 2106 cpu:0.00 mem:16320
+wheel_radius_calibration pid:    0 cpu:0.00 mem:0
+            hmiproxy pid:    0 cpu:0.00 mem:0
+         dds_to_flow pid:    0 cpu:0.00 mem:0
+app_camera_encode_libflow.out pid:24149 cpu:0.00 mem:7936
+     bev_libflow.out pid:24168 cpu:0.00 mem:8192
+   avm_calib_service pid: 1498 cpu:0.00 mem:25152
+
+========= sysinfo gtc:0 utc:1676358840555004 =========
+usr:2 sys:2 idle:94 nic:0 io:0 irq:0 sirq:0 timestamp:1676358840555004
+           lane-main pid: 1941 cpu:0.00 mem:44608
+   object_perception pid: 1945 cpu:0.00 mem:49344
+              fusion pid: 1935 cpu:0.00 mem:86400
+                 dnp pid: 1937 cpu:0.00 mem:32512
+              canout pid:    0 cpu:0.00 mem:0
+             chassis pid:    0 cpu:0.00 mem:0
+         avm-parking pid:    0 cpu:0.00 mem:0
+      private_canout pid:    0 cpu:0.00 mem:0
+           stitching pid:    0 cpu:0.00 mem:0
+          perception pid:    0 cpu:0.00 mem:0
+            strategy pid:    0 cpu:0.00 mem:0
+                 lam pid:    0 cpu:0.00 mem:0
+     vehicle_control pid: 2106 cpu:0.00 mem:16320
+            planning pid:    0 cpu:0.00 mem:0
+                 spm pid:    0 cpu:0.00 mem:0
+                usdm pid:    0 cpu:0.00 mem:0
+                euim pid:    0 cpu:0.00 mem:0
+          diagnostic pid:    0 cpu:0.00 mem:0
+        run_dds_flow pid:    0 cpu:0.00 mem:0
+   odo_vehiclesignal pid:    0 cpu:0.00 mem:0
+    apa_localization pid: 2084 cpu:0.00 mem:16000
+         apa_manager pid:    0 cpu:0.00 mem:0
+        apa_planning pid: 2114 cpu:0.00 mem:20544
+       bird_eye_view pid: 2087 cpu:0.00 mem:36416
+       dfg_avm_calib pid:    0 cpu:0.00 mem:0
+      havp_inference pid: 2096 cpu:0.00 mem:39680
+havp_parkingspace_postprocess pid: 2101 cpu:0.00 mem:76288
+ vehicle_control_dds pid: 2106 cpu:0.00 mem:16320
+wheel_radius_calibration pid:    0 cpu:0.00 mem:0
+            hmiproxy pid:    0 cpu:0.00 mem:0
+         dds_to_flow pid:    0 cpu:0.00 mem:0
+app_camera_encode_libflow.out pid:24149 cpu:0.00 mem:7936
+     bev_libflow.out pid:24168 cpu:0.00 mem:8192
+   avm_calib_service pid: 1498 cpu:0.00 mem:25152
+
+========= sysinfo gtc:0 utc:1676358841556758 =========
+usr:1 sys:2 idle:96 nic:0 io:0 irq:0 sirq:0 timestamp:1676358841556758
+           lane-main pid: 1941 cpu:0.00 mem:44608
+   object_perception pid: 1945 cpu:0.00 mem:49344
+              fusion pid: 1935 cpu:0.00 mem:86400
+                 dnp pid: 1937 cpu:0.00 mem:32512
+              canout pid:    0 cpu:0.00 mem:0
+             chassis pid:    0 cpu:0.00 mem:0
+         avm-parking pid:    0 cpu:0.00 mem:0
+      private_canout pid:    0 cpu:0.00 mem:0
+           stitching pid:    0 cpu:0.00 mem:0
+          perception pid:    0 cpu:0.00 mem:0
+            strategy pid:    0 cpu:0.00 mem:0
+                 lam pid:    0 cpu:0.00 mem:0
+     vehicle_control pid: 2106 cpu:0.00 mem:16320
+            planning pid:    0 cpu:0.00 mem:0
+                 spm pid:    0 cpu:0.00 mem:0
+                usdm pid:    0 cpu:0.00 mem:0
+                euim pid:    0 cpu:0.00 mem:0
+          diagnostic pid:    0 cpu:0.00 mem:0
+        run_dds_flow pid:    0 cpu:0.00 mem:0
+   odo_vehiclesignal pid:    0 cpu:0.00 mem:0
+    apa_localization pid: 2084 cpu:0.00 mem:16000
+         apa_manager pid:    0 cpu:0.00 mem:0
+        apa_planning pid: 2114 cpu:0.00 mem:20544
+       bird_eye_view pid: 2087 cpu:0.00 mem:36416
+       dfg_avm_calib pid:    0 cpu:0.00 mem:0
+      havp_inference pid: 2096 cpu:0.00 mem:39680
+havp_parkingspace_postprocess pid: 2101 cpu:0.00 mem:76288
+ vehicle_control_dds pid: 2106 cpu:0.00 mem:16320
+wheel_radius_calibration pid:    0 cpu:0.00 mem:0
+            hmiproxy pid:    0 cpu:0.00 mem:0
+         dds_to_flow pid:    0 cpu:0.00 mem:0
+app_camera_encode_libflow.out pid:24149 cpu:0.00 mem:7936
+     bev_libflow.out pid:24168 cpu:0.00 mem:8192
+   avm_calib_service pid: 1498 cpu:0.00 mem:25152
+
+========= sysinfo gtc:0 utc:1676358842558393 =========
+usr:2 sys:2 idle:94 nic:0 io:0 irq:0 sirq:0 timestamp:1676358842558393
+           lane-main pid: 1941 cpu:0.00 mem:44608
+   object_perception pid: 1945 cpu:0.00 mem:49344
+              fusion pid: 1935 cpu:0.00 mem:86400
+                 dnp pid: 1937 cpu:0.00 mem:32512
+              canout pid:    0 cpu:0.00 mem:0
+             chassis pid:    0 cpu:0.00 mem:0
+         avm-parking pid:    0 cpu:0.00 mem:0
+      private_canout pid:    0 cpu:0.00 mem:0
+           stitching pid:    0 cpu:0.00 mem:0
+          perception pid:    0 cpu:0.00 mem:0
+            strategy pid:    0 cpu:0.00 mem:0
+                 lam pid:    0 cpu:0.00 mem:0
+     vehicle_control pid: 2106 cpu:0.00 mem:16320
+            planning pid:    0 cpu:0.00 mem:0
+                 spm pid:    0 cpu:0.00 mem:0
+                usdm pid:    0 cpu:0.00 mem:0
+                euim pid:    0 cpu:0.00 mem:0
+          diagnostic pid:    0 cpu:0.00 mem:0
+        run_dds_flow pid:    0 cpu:0.00 mem:0
+   odo_vehiclesignal pid:    0 cpu:0.00 mem:0
+    apa_localization pid: 2084 cpu:0.00 mem:16000
+         apa_manager pid:    0 cpu:0.00 mem:0
+        apa_planning pid: 2114 cpu:0.00 mem:20544
+       bird_eye_view pid: 2087 cpu:0.00 mem:36416
+       dfg_avm_calib pid:    0 cpu:0.00 mem:0
+      havp_inference pid: 2096 cpu:0.00 mem:39680
+havp_parkingspace_postprocess pid: 2101 cpu:0.00 mem:76288
+ vehicle_control_dds pid: 2106 cpu:0.00 mem:16320
+wheel_radius_calibration pid:    0 cpu:0.00 mem:0
+            hmiproxy pid:    0 cpu:0.00 mem:0
+         dds_to_flow pid:    0 cpu:0.00 mem:0
+app_camera_encode_libflow.out pid:24149 cpu:0.00 mem:7936
+     bev_libflow.out pid:24168 cpu:0.00 mem:8192
+   avm_calib_service pid: 1498 cpu:0.00 mem:25152
+
+========= sysinfo gtc:0 utc:1676358843560015 =========
+usr:1 sys:1 idle:95 nic:0 io:0 irq:1 sirq:0 timestamp:1676358843560015
+           lane-main pid: 1941 cpu:0.00 mem:44608
+   object_perception pid: 1945 cpu:0.00 mem:49344
+              fusion pid: 1935 cpu:0.00 mem:86400
+                 dnp pid: 1937 cpu:0.00 mem:32512
+              canout pid:    0 cpu:0.00 mem:0
+             chassis pid:    0 cpu:0.00 mem:0
+         avm-parking pid:    0 cpu:0.00 mem:0
+      private_canout pid:    0 cpu:0.00 mem:0
+           stitching pid:    0 cpu:0.00 mem:0
+          perception pid:    0 cpu:0.00 mem:0
+            strategy pid:    0 cpu:0.00 mem:0
+                 lam pid:    0 cpu:0.00 mem:0
+     vehicle_control pid: 2106 cpu:0.00 mem:16320
+            planning pid:    0 cpu:0.00 mem:0
+                 spm pid:    0 cpu:0.00 mem:0
+                usdm pid:    0 cpu:0.00 mem:0
+                euim pid:    0 cpu:0.00 mem:0
+          diagnostic pid:    0 cpu:0.00 mem:0
+        run_dds_flow pid:    0 cpu:0.00 mem:0
+   odo_vehiclesignal pid:    0 cpu:0.00 mem:0
+    apa_localization pid: 2084 cpu:0.00 mem:16000
+         apa_manager pid:    0 cpu:0.00 mem:0
+        apa_planning pid: 2114 cpu:0.00 mem:20544
+       bird_eye_view pid: 2087 cpu:0.00 mem:36416
+       dfg_avm_calib pid:    0 cpu:0.00 mem:0
+      havp_inference pid: 2096 cpu:0.00 mem:39680
+havp_parkingspace_postprocess pid: 2101 cpu:0.00 mem:76288
+ vehicle_control_dds pid: 2106 cpu:0.00 mem:16320
+wheel_radius_calibration pid:    0 cpu:0.00 mem:0
+            hmiproxy pid:    0 cpu:0.00 mem:0
+         dds_to_flow pid:    0 cpu:0.00 mem:0
+app_camera_encode_libflow.out pid:24149 cpu:0.00 mem:7936
+     bev_libflow.out pid:24168 cpu:0.00 mem:8192
+   avm_calib_service pid: 1498 cpu:0.00 mem:25152
+
+========= sysinfo gtc:0 utc:1676358844561624 =========
+usr:2 sys:2 idle:94 nic:0 io:0 irq:0 sirq:0 timestamp:1676358844561624
+           lane-main pid: 1941 cpu:0.00 mem:44608
+   object_perception pid: 1945 cpu:0.00 mem:49344
+              fusion pid: 1935 cpu:0.00 mem:86400
+                 dnp pid: 1937 cpu:0.00 mem:32512
+              canout pid:    0 cpu:0.00 mem:0
+             chassis pid:    0 cpu:0.00 mem:0
+         avm-parking pid:    0 cpu:0.00 mem:0
+      private_canout pid:    0 cpu:0.00 mem:0
+           stitching pid:    0 cpu:0.00 mem:0
+          perception pid:    0 cpu:0.00 mem:0
+            strategy pid:    0 cpu:0.00 mem:0
+                 lam pid:    0 cpu:0.00 mem:0
+     vehicle_control pid: 2106 cpu:0.00 mem:16320
+            planning pid:    0 cpu:0.00 mem:0
+                 spm pid:    0 cpu:0.00 mem:0
+                usdm pid:    0 cpu:0.00 mem:0
+                euim pid:    0 cpu:0.00 mem:0
+          diagnostic pid:    0 cpu:0.00 mem:0
+        run_dds_flow pid:    0 cpu:0.00 mem:0
+   odo_vehiclesignal pid:    0 cpu:0.00 mem:0
+    apa_localization pid: 2084 cpu:0.00 mem:16000
+         apa_manager pid:    0 cpu:0.00 mem:0
+        apa_planning pid: 2114 cpu:0.00 mem:20544
+       bird_eye_view pid: 2087 cpu:0.00 mem:36416
+       dfg_avm_calib pid:    0 cpu:0.00 mem:0
+      havp_inference pid: 2096 cpu:0.00 mem:39680
+havp_parkingspace_postprocess pid: 2101 cpu:0.00 mem:76288
+ vehicle_control_dds pid: 2106 cpu:0.00 mem:16320
+wheel_radius_calibration pid:    0 cpu:0.00 mem:0
+            hmiproxy pid:    0 cpu:0.00 mem:0
+         dds_to_flow pid:    0 cpu:0.00 mem:0
+app_camera_encode_libflow.out pid:24149 cpu:0.00 mem:7936
+     bev_libflow.out pid:24168 cpu:0.00 mem:8192
+   avm_calib_service pid: 1498 cpu:0.00 mem:25152
+
+========= sysinfo gtc:0 utc:1676358845563204 =========
+usr:1 sys:1 idle:95 nic:0 io:0 irq:0 sirq:0 timestamp:1676358845563204
+           lane-main pid: 1941 cpu:0.00 mem:44608
+   object_perception pid: 1945 cpu:0.00 mem:49344
+              fusion pid: 1935 cpu:0.00 mem:86400
+                 dnp pid: 1937 cpu:0.00 mem:32512
+              canout pid:    0 cpu:0.00 mem:0
+             chassis pid:    0 cpu:0.00 mem:0
+         avm-parking pid:    0 cpu:0.00 mem:0
+      private_canout pid:    0 cpu:0.00 mem:0
+           stitching pid:    0 cpu:0.00 mem:0
+          perception pid:    0 cpu:0.00 mem:0
+            strategy pid:    0 cpu:0.00 mem:0
+                 lam pid:    0 cpu:0.00 mem:0
+     vehicle_control pid: 2106 cpu:0.00 mem:16320
+            planning pid:    0 cpu:0.00 mem:0
+                 spm pid:    0 cpu:0.00 mem:0
+                usdm pid:    0 cpu:0.00 mem:0
+                euim pid:    0 cpu:0.00 mem:0
+          diagnostic pid:    0 cpu:0.00 mem:0
+        run_dds_flow pid:    0 cpu:0.00 mem:0
+   odo_vehiclesignal pid:    0 cpu:0.00 mem:0
+    apa_localization pid: 2084 cpu:0.00 mem:16000
+         apa_manager pid:    0 cpu:0.00 mem:0
+        apa_planning pid: 2114 cpu:0.00 mem:20544
+       bird_eye_view pid: 2087 cpu:0.00 mem:36416
+       dfg_avm_calib pid:    0 cpu:0.00 mem:0
+      havp_inference pid: 2096 cpu:0.00 mem:39680
+havp_parkingspace_postprocess pid: 2101 cpu:0.00 mem:76288
+ vehicle_control_dds pid: 2106 cpu:0.00 mem:16320
+wheel_radius_calibration pid:    0 cpu:0.00 mem:0
+            hmiproxy pid:    0 cpu:0.00 mem:0
+         dds_to_flow pid:    0 cpu:0.00 mem:0
+app_camera_encode_libflow.out pid:24149 cpu:0.00 mem:7936
+     bev_libflow.out pid:24168 cpu:0.00 mem:8192
+   avm_calib_service pid: 1498 cpu:0.00 mem:25152
+
+========= sysinfo gtc:0 utc:1676358846564790 =========
+usr:1 sys:1 idle:96 nic:0 io:0 irq:0 sirq:0 timestamp:1676358846564790
+           lane-main pid: 1941 cpu:0.00 mem:44608
+   object_perception pid: 1945 cpu:0.00 mem:49344
+              fusion pid: 1935 cpu:0.00 mem:86400
+                 dnp pid: 1937 cpu:0.00 mem:32512
+              canout pid:    0 cpu:0.00 mem:0
+             chassis pid:    0 cpu:0.00 mem:0
+         avm-parking pid:    0 cpu:0.00 mem:0
+      private_canout pid:    0 cpu:0.00 mem:0
+           stitching pid:    0 cpu:0.00 mem:0
+          perception pid:    0 cpu:0.00 mem:0
+            strategy pid:    0 cpu:0.00 mem:0
+                 lam pid:    0 cpu:0.00 mem:0
+     vehicle_control pid: 2106 cpu:0.00 mem:16320
+            planning pid:    0 cpu:0.00 mem:0
+                 spm pid:    0 cpu:0.00 mem:0
+                usdm pid:    0 cpu:0.00 mem:0
+                euim pid:    0 cpu:0.00 mem:0
+          diagnostic pid:    0 cpu:0.00 mem:0
+        run_dds_flow pid:    0 cpu:0.00 mem:0
+   odo_vehiclesignal pid:    0 cpu:0.00 mem:0
+    apa_localization pid: 2084 cpu:0.00 mem:16000
+         apa_manager pid:    0 cpu:0.00 mem:0
+        apa_planning pid: 2114 cpu:0.00 mem:20544
+       bird_eye_view pid: 2087 cpu:0.00 mem:36416
+       dfg_avm_calib pid:    0 cpu:0.00 mem:0
+      havp_inference pid: 2096 cpu:0.00 mem:39680
+havp_parkingspace_postprocess pid: 2101 cpu:0.00 mem:76288
+ vehicle_control_dds pid: 2106 cpu:0.00 mem:16320
+wheel_radius_calibration pid:    0 cpu:0.00 mem:0
+            hmiproxy pid:    0 cpu:0.00 mem:0
+         dds_to_flow pid:    0 cpu:0.00 mem:0
+app_camera_encode_libflow.out pid:24149 cpu:0.00 mem:7936
+     bev_libflow.out pid:24168 cpu:0.00 mem:8192
+   avm_calib_service pid: 1498 cpu:0.00 mem:25152
+
+========= sysinfo gtc:0 utc:1676358847566370 =========
+usr:2 sys:1 idle:96 nic:0 io:0 irq:0 sirq:0 timestamp:1676358847566370
+           lane-main pid: 1941 cpu:0.00 mem:44608
+   object_perception pid: 1945 cpu:0.00 mem:49344
+              fusion pid: 1935 cpu:0.00 mem:86400
+                 dnp pid: 1937 cpu:0.00 mem:32512
+              canout pid:    0 cpu:0.00 mem:0
+             chassis pid:    0 cpu:0.00 mem:0
+         avm-parking pid:    0 cpu:0.00 mem:0
+      private_canout pid:    0 cpu:0.00 mem:0
+           stitching pid:    0 cpu:0.00 mem:0
+          perception pid:    0 cpu:0.00 mem:0
+            strategy pid:    0 cpu:0.00 mem:0
+                 lam pid:    0 cpu:0.00 mem:0
+     vehicle_control pid: 2106 cpu:0.00 mem:16320
+            planning pid:    0 cpu:0.00 mem:0
+                 spm pid:    0 cpu:0.00 mem:0
+                usdm pid:    0 cpu:0.00 mem:0
+                euim pid:    0 

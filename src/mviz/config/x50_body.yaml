@@ -1,0 +1,13 @@
+"vehicle_plaform": "x50"
+"length": 4.597
+"width": 1.865
+"height": 1.686
+"wheel_base": 2.720
+"front_wheel_distance": 1.610
+"rear_wheel_distance": 1.615
+"front_suspension_length": 0.9463
+"rear_suspension_length": 0.9307
+"safety_d" : 0.3   # 30cm
+"step_x": 7
+"step_y": 3
+
