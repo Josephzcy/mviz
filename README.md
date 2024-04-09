@@ -1,9 +1,7 @@
 # mviz2_ros
 
-将mviz2 （https://git.minieye.tech/zhangjia/mviz2） 采用ros包的组织方式，移植mviz1 （https://git.minieye.tech/zhangchengyu/mviz_apa） 的可视化.
 
-## Getting started
-git clone git@git.minieye.tech:mviz_group/mviz2_ros.git
+
 
 ## 编译
 当本地编译和docker容器编译切换时，先执行：
